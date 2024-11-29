@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>D:\Maeen\UNI Documents\OneDrive - Faculty of Engineering Ain Shams University\Senior 1\Fall 24\Introduction to Embedded Systems\Project\IAR Smart Home\Debug\Exe\Smart_Home.out</Path>
+            <Output>
+                <Path>D:\Maeen\UNI Documents\OneDrive - Faculty of Engineering Ain Shams University\Senior 1\Fall 24\Introduction to Embedded Systems\Project\IAR Smart Home\Debug\List\Smart_Home.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

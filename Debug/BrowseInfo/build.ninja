@@ -1,0 +1,41 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.2\common\bin\XclFileGenerator.exe" $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$out
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.2\common\bin\SourceIndexer.exe" $flags
+  depfile = $out.dep
+  deps = gcc
+  description = IAR_NEW_TOOL+++INDEXER+++$out
+
+rule MAKEBROWSE
+  command = "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.2\common\bin\makeBrowseData.exe" $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out
+
+rule PDBLINK
+  command = "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.2\common\bin\PbdLink.exe" $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out
+
+
+
+#Build steps
+build D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+    flags = "D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\main.c" -o "D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.2\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\BrowseInfo\main.tmp"
+    rspfile_name = D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\BrowseInfo\main.xcl.rsp
+    xclcommand = -source_file "D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\main.c" -xcl_file "D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\BrowseInfo\main.xcl" -macro_file "D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\BrowseInfo\main.tmp" -icc_path "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.2\arm\bin\iccarm.exe"
+
+build D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\BrowseInfo\main.pbi : INDEXER D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\BrowseInfo\main.xcl | D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\main.c
+    flags = "-out=D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\BrowseInfo\main.pbi" -f "D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\BrowseInfo\main.xcl"
+
+build D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\BrowseInfo\Smart_Home.pbw : MAKEBROWSE D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\BrowseInfo\Smart_Home.pbd
+    flags = "D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\BrowseInfo\Smart_Home.pbd" -output "D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\BrowseInfo\Smart_Home.pbw"
+
+build D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\BrowseInfo\Smart_Home.pbd : PDBLINK D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\BrowseInfo\main.pbi
+    flags = -M "D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\BrowseInfo\Smart_Home.pbd" "D$:\Maeen\UNI$ Documents\OneDrive$ -$ Faculty$ of$ Engineering$ Ain$ Shams$ University\Senior$ 1\Fall$ 24\Introduction$ to$ Embedded$ Systems\Project\IAR$ Smart$ Home\Debug\BrowseInfo\main.pbi"
+

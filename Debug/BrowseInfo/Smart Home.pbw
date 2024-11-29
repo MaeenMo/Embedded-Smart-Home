@@ -1,0 +1,16 @@
+[
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "2",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]
