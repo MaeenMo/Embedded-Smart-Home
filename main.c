@@ -5,10 +5,9 @@ void Delay(unsigned long counter); // used to add delay
 void HC05_init(void); // Initialize UART5 module for HC-05
 char Bluetooth_Read(void); //Read data from Rx5 pin of TM4C123
 void Bluetooth_Write(unsigned char data); // Transmit a character to HC-05 over Tx5 pin 
-void Bluetooth_Write_String(char *str); // Transmit a string to HC-05 over Tx5 pin 
-int main(void)
-{
-	  
+void Bluetooth_Write_String(char *str); // Transmit a string to HC-05 over Tx5 pin
+
+int main(void) {
 	HC05_init(); // call HC05_init() to initialze UART5 of TM4C123GH6PM
 	
 	/* Set PF1, PF2 and PF3 as digital output pins */
@@ -18,12 +17,11 @@ int main(void)
     GPIO_PORTF_DEN_R |= 0x0E;         // CON PF1, PF2 and PF3 as digital GPIO pins
   	Delay(10); 
 	
-	while(1)
-	{
+	while(1) {
 		char c = Bluetooth_Read();          /* get a character from UART5 */
 		
-/* Check the received character and take action to control onboard LEDs of TM4C123 */
-/* Send status string to Andriod app after turning on/off LEDs */
+        /* Check the received character and take action to control onboard LEDs of TM4C123 */
+        /* Send status string to Andriod app after turning on/off LEDs */
 
         if( c=='A'){
 			GPIO_PORTF_DATA_R |=(1<<1);

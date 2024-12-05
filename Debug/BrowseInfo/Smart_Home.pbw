@@ -97079,7 +97079,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "9",
+      "line": "10",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
     },
     "name": "main",
@@ -97087,13 +97087,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@840@F@main@c",
+    "ID": "c:main.c@833@F@main@c",
     "What": "Variable",
     "defdec": "Def",
     "display": "c",
     "location": {
       "column": "8",
-      "line": "23",
+      "line": "21",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
     },
     "name": "c",
@@ -97107,7 +97107,7 @@
     "display": "void HC05_init(void)",
     "location": {
       "column": "6",
-      "line": "55",
+      "line": "53",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
     },
     "name": "HC05_init",
@@ -97121,7 +97121,7 @@
     "display": "char Bluetooth_Read(void)",
     "location": {
       "column": "6",
-      "line": "74",
+      "line": "72",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
     },
     "name": "Bluetooth_Read",
@@ -97129,13 +97129,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2730@F@Bluetooth_Read@data",
+    "ID": "c:main.c@2739@F@Bluetooth_Read@data",
     "What": "Variable",
     "defdec": "Def",
     "display": "data",
     "location": {
       "column": "10",
-      "line": "76",
+      "line": "74",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
     },
     "name": "data",
@@ -97149,7 +97149,7 @@
     "display": "void Bluetooth_Write(unsigned char)",
     "location": {
       "column": "6",
-      "line": "82",
+      "line": "80",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
     },
     "name": "Bluetooth_Write",
@@ -97163,7 +97163,7 @@
     "display": "void Bluetooth_Write_String(char *)",
     "location": {
       "column": "6",
-      "line": "88",
+      "line": "86",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
     },
     "name": "Bluetooth_Write_String",
@@ -97177,7 +97177,7 @@
     "display": "void Delay(unsigned long)",
     "location": {
       "column": "6",
-      "line": "96",
+      "line": "94",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
     },
     "name": "Delay",
@@ -97185,13 +97185,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3268@F@Delay@i",
+    "ID": "c:main.c@3277@F@Delay@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "16",
-      "line": "98",
+      "line": "96",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
     },
     "name": "i",
