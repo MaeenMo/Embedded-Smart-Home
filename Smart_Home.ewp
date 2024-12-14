@@ -103,7 +103,7 @@
                 <option>
                     <name>GBECoreSlave</name>
                     <version>33</version>
-                    <state>38</state>
+                    <state>39</state>
                 </option>
                 <option>
                     <name>OGUseCmsis</name>
@@ -184,7 +184,7 @@
                 </option>
                 <option>
                     <name>DSPExtension</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>TrustZone</name>
@@ -765,7 +765,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$TOOLKIT_DIR$\config\generic_cortex.icf</state>
+                    <state>$TOOLKIT_DIR$/config/linker/TexasInstruments/TM4C123GH6.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -2169,8 +2169,86 @@
             <data />
         </settings>
     </configuration>
+    <group>
+        <name>Modules</name>
+        <group>
+            <name>Alarm</name>
+            <file>
+                <name>$PROJ_DIR$\Modules\Alarm\Alarm.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\Modules\Alarm\Alarm.h</name>
+            </file>
+        </group>
+        <group>
+            <name>DataLogging</name>
+            <file>
+                <name>$PROJ_DIR$\Modules\DataLogging\DataLogging.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\Modules\DataLogging\DataLogging.h</name>
+            </file>
+        </group>
+        <group>
+            <name>DIO</name>
+            <file>
+                <name>$PROJ_DIR$\Modules\DIO\DIO.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\Modules\DIO\DIO.h</name>
+            </file>
+        </group>
+        <group>
+            <name>DoorStatus</name>
+            <file>
+                <name>$PROJ_DIR$\Modules\DoorStatus\DoorStatus.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\Modules\DoorStatus\DoorStatus.h</name>
+            </file>
+        </group>
+        <group>
+            <name>Relay</name>
+            <file>
+                <name>$PROJ_DIR$\Modules\Relay\Relay.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\Modules\Relay\Relay.h</name>
+            </file>
+        </group>
+        <group>
+            <name>Systick</name>
+            <file>
+                <name>$PROJ_DIR$\Modules\Systick\Systick.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\Modules\Systick\Systick.h</name>
+            </file>
+        </group>
+        <group>
+            <name>Temprature</name>
+            <file>
+                <name>$PROJ_DIR$\Modules\Temperature\LM35.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\Modules\Temperature\LM35.h</name>
+            </file>
+        </group>
+        <group>
+            <name>UART</name>
+            <file>
+                <name>$PROJ_DIR$\Modules\UART\UART.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\Modules\UART\UART.h</name>
+            </file>
+        </group>
+    </group>
     <file>
         <name>$PROJ_DIR$\main.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\startup_ewarm.c</name>
     </file>
     <file>
         <name>$PROJ_DIR$\tm4c123gh6pm.h</name>

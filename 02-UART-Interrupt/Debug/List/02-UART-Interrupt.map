@@ -1,0 +1,210 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  09/Dec/2024  02:05:21
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\8_UART\02-UART-Interrupt\Debug\Exe\02-UART-Interrupt.out
+#    Map file     =
+#        D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\8_UART\02-UART-Interrupt\Debug\List\02-UART-Interrupt.map
+#    Command line =
+#        -f "D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\8_UART\02-UART-Interrupt\Debug\Exe\02-UART-Interrupt.out.rsp"
+#        ("D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\8_UART\02-UART-Interrupt\Debug\Obj\main.o"
+#        "D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\8_UART\02-UART-Interrupt\Debug\Obj\startup_ewarm.o"
+#        --no_out_extension -o "D:\Work\TA Work\03-Fall-24\CSE211 Introduction
+#        to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\8_UART\02-UART-Interrupt\Debug\Exe\02-UART-Interrupt.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map "D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\8_UART\02-UART-Interrupt\Debug\List\02-UART-Interrupt.map"
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+do not initialize { rw section .noinit };
+
+  Section          Kind         Address   Size  Object
+  -------          ----         -------   ----  ------
+"A0":                                    0x26c
+  .intvec          const            0x0  0x26c  startup_ewarm.o [1]
+                                - 0x26c  0x26c
+
+"P1":                                    0x334
+  .text            ro code        0x26c  0x1ee  main.o [1]
+  .text            ro code        0x45a   0x38  zero_init3.o [4]
+  .text            ro code        0x492    0x2  vectortrap_M.o [4]
+  .rodata          const          0x494   0x2c  main.o [1]
+  .text            ro code        0x4c0   0x28  data_init.o [4]
+  .text            ro code        0x4e8   0x22  fpinit_M.o [3]
+  .iar.init_table  const          0x50c   0x10  - Linker created -
+  .text            ro code        0x51c   0x1e  startup_ewarm.o [1]
+  .text            ro code        0x53c   0x1c  cstartup_M.o [4]
+  .text            ro code        0x558   0x1e  cmain.o [4]
+  .text            ro code        0x576    0x4  low_level_init.o [2]
+  .text            ro code        0x57a    0x4  exit.o [2]
+  .text            ro code        0x580    0xa  cexit.o [4]
+  .text            ro code        0x58c   0x14  exit.o [5]
+  .rodata          const          0x5a0    0x0  zero_init3.o [4]
+                                - 0x5a0  0x334
+
+"P2", part 1 of 2:                         0x4
+  .bss             zero     0x2000'0000    0x1  main.o [1]
+                          - 0x2000'0001    0x1
+
+"P2", part 2 of 2:                       0x200
+  .noinit          uninit   0x2000'0004  0x200  startup_ewarm.o [1]
+                          - 0x2000'0204  0x200
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x5a0     0x3'ffff  0x3'fa60
+  0x2000'0204  0x2000'7fff    0x7dfc
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1:
+          0x2000'0000   0x1
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+D:\Work\TA Work\03-Fall-24\CSE211 Introduction to Embedded\2_Hands-on_Projects\Lab_Projects\8_UART\02-UART-Interrupt\Debug\Obj: [1]
+    main.o                494       44        1
+    startup_ewarm.o        30      620      512
+    -------------------------------------------
+    Total:                524      664      513
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+m7M_tls.a: [3]
+    fpinit_M.o             34
+    -------------------------------------------
+    Total:                 34
+
+rt7M_tl.a: [4]
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           28
+    data_init.o            40
+    vectortrap_M.o          2
+    zero_init3.o           56
+    -------------------------------------------
+    Total:                166
+
+shb_l.a: [5]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    6        2
+    Linker created                  16
+-----------------------------------------------
+    Grand Total:          758      682      513
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base         0x50c          --   Gb  - Linker created -
+.iar.init_table$$Limit        0x51c          --   Gb  - Linker created -
+?main                         0x559         Code  Gb  cmain.o [4]
+FaultISR                      0x537    0x2  Code  Lc  startup_ewarm.o [1]
+GPIO_Init                     0x389   0x2e  Code  Gb  main.o [1]
+IntDefaultHandler             0x539    0x2  Code  Lc  startup_ewarm.o [1]
+NmiSR                         0x535    0x2  Code  Lc  startup_ewarm.o [1]
+Region$$Table$$Base           0x50c          --   Gb  - Linker created -
+Region$$Table$$Limit          0x51c          --   Gb  - Linker created -
+ResetISR                      0x51d   0x14  Code  Gb  startup_ewarm.o [1]
+SysTick_Handler               0x493         Code  Wk  vectortrap_M.o [4]
+UART0_Handler                 0x3b7   0x1e  Code  Gb  main.o [1]
+UART0_Init                    0x2d9   0xb0  Code  Gb  main.o [1]
+UART0_TransmitChar            0x3d5   0x10  Code  Gb  main.o [1]
+UART0_TransmitString          0x445   0x16  Code  Gb  main.o [1]
+__cmain                       0x559         Code  Gb  cmain.o [4]
+__exit                        0x58d   0x14  Code  Gb  exit.o [5]
+__iar_data_init3              0x4c1   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp                0x4e9         Code  Gb  fpinit_M.o [3]
+__iar_program_start           0x53d         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3              0x45b   0x38  Code  Gb  zero_init3.o [4]
+__low_level_init              0x577    0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0  0x26c  Data  Gb  startup_ewarm.o [1]
+_call_main                    0x565         Code  Gb  cmain.o [4]
+_exit                         0x581         Code  Gb  cexit.o [4]
+exit                          0x57b    0x4  Code  Gb  exit.o [2]
+main                          0x26d   0x6c  Code  Gb  main.o [1]
+pui32Stack              0x2000'0004  0x200  Data  Lc  startup_ewarm.o [1]
+received_char           0x2000'0000    0x1  Data  Gb  main.o [1]
+
+
+[1] = D:\Work\TA Work\03-Fall-24\CSE211 Introduction to Embedded\2_Hands-on_Projects\Lab_Projects\8_UART\02-UART-Interrupt\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  758 bytes of readonly  code memory
+  682 bytes of readonly  data memory
+  513 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

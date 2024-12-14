@@ -34,6 +34,19 @@
 #define GPIO_PORT_LOCK_R(port_base)      (*(volatile uint32_t *)(port_base + 0x520))  // Lock register
 #define GPIO_PORT_CR_R(port_base)        (*(volatile uint32_t *)(port_base + 0x524))  // Commit register
 #define GPIO_PORT_DATA_BITS_R(port_base) ((volatile uint32_t *)(port_base))           // Data bits register
+#define GPIO_PORT_AFSEL_R(gpioBase)    (*((volatile uint32_t *)(gpioBase + 0x420)))  // GPIO Alternate Function Select
+#define GPIO_PORT_PCTL_R(gpioBase)     (*((volatile uint32_t *)(gpioBase + 0x52C)))  // GPIO Port Control
+
+// UART Registers
+#define UART_CTL_R(uartBase)        (*((volatile uint32_t *)(uartBase + 0x030)))  // UART Control
+#define UART_IBRD_R(uartBase)       (*((volatile uint32_t *)(uartBase + 0x024)))  // Integer Baud Rate Divisor
+#define UART_FBRD_R(uartBase)       (*((volatile uint32_t *)(uartBase + 0x028)))  // Fractional Baud Rate Divisor
+#define UART_CC_R(uartBase)         (*((volatile uint32_t *)(uartBase + 0xFC8)))  // Clock Control
+#define UART_LCRH_R(uartBase)       (*((volatile uint32_t *)(uartBase + 0x02C)))  // Line Control
+#define UART_DR_R(uartBase)         (*((volatile uint32_t *)(uartBase + 0x000)))  // Data Register
+#define UART_FR_R(uartBase)         (*((volatile uint32_t *)(uartBase + 0x018)))  // Flag Register
+
+
 
 // Function prototypes
 void dio_init(char port, uint8_t pins, uint8_t direction);
@@ -41,5 +54,6 @@ uint8_t dio_readpin(char port, uint8_t pin);
 uint8_t dio_readport(char port);
 void dio_writepin(char port, uint8_t pin, uint8_t value);
 void dio_writeport(char port, uint8_t value);
+uint8_t ctz(uint32_t value);
 
 #endif // DIO_H

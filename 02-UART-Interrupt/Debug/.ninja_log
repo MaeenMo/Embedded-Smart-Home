@@ -1,0 +1,4 @@
+# ninja log v5
+1	168	7554059047031913	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/Obj/main.o	c4ff07eb1401505f
+0	81	7554059218218804	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/Obj/startup_ewarm.o	d7494292e43dda8f
+88	155	7554059218998547	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/Exe/02-UART-Interrupt.out	831a5af2787a0310

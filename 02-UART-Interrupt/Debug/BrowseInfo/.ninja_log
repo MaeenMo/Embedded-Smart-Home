@@ -1,0 +1,20 @@
+# ninja log v5
+1	120	7554049420000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/main.xcl	ef40fe86e8a53aa9
+126	177	7554049423529576	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/main.pbi	cc819406688b669a
+182	212	7554049423895436	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/02-UART-Interrupt.pbd	b241ac6c17fd516c
+216	598	7554049427564915	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/02-UART-Interrupt.pbw	d56ecad2ec7d7826
+0	106	7554050996771280	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/main.pbi	cc819406688b669a
+112	165	7554050997368753	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/02-UART-Interrupt.pbd	b241ac6c17fd516c
+169	976	7554051005029241	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/02-UART-Interrupt.pbw	d56ecad2ec7d7826
+0	96	7554058846258102	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/main.pbi	cc819406688b669a
+100	164	7554058846945817	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/02-UART-Interrupt.pbd	b241ac6c17fd516c
+169	1014	7554058855112934	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/02-UART-Interrupt.pbw	d56ecad2ec7d7826
+0	97	7554059008326585	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/main.pbi	cc819406688b669a
+102	157	7554059008943713	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/02-UART-Interrupt.pbd	b241ac6c17fd516c
+162	927	7554059016389423	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/02-UART-Interrupt.pbw	d56ecad2ec7d7826
+1	125	7554059060000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/main.xcl	78d2f439b1f6cd97
+27	177	7554059060000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/startup_ewarm.xcl	18e61db19fa3b609
+185	247	7554059069914069	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/startup_ewarm.pbi	ace7e21c171f51a7
+132	257	7554059070015346	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/main.pbi	cc819406688b669a
+261	305	7554059070504042	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/02-UART-Interrupt.pbd	14ef3f40dd4981c4
+310	1062	7554059077818397	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/8_UART/02-UART-Interrupt/Debug/BrowseInfo/02-UART-Interrupt.pbw	d56ecad2ec7d7826

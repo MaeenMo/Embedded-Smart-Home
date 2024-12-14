@@ -1,7 +1,9 @@
 #ifndef DOORSTATUS_H
 #define DOORSTATUS_H
 
-void DoorStatus_init(char port, uint8_t pins);
+#include <stdbool.h>
+
+void DoorStatus_init(void);
 bool getDoorStatus(void);
 
-#endif
+#endif // DOORSTATUS_H
