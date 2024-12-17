@@ -1,5 +1,6 @@
 #include "DoorStatus.h"
 #include "../UART/UART.h"
+#include "DoorStatus.h"
 
 static bool doorStatus = false;
 
@@ -11,6 +12,6 @@ void DoorStatus_init(void) {
 // Get door status (open/closed)
 bool getDoorStatus(void) {
     char status = UART_Receive(1); // Receive status from door sensor
-    doorStatus = (status == '1');  // '1' means door open, '0' means door closed
+    doorStatus = (status == '0');  // '0' means door open, '1' means door closed
     return doorStatus;
 }

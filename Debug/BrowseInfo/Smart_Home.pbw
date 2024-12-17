@@ -94351,20 +94351,6 @@
     "scope": null
   },
   {
-    "ID": "c:stdint.h@T@__data_uintptr_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned int",
-    "location": {
-      "column": "1",
-      "line": "89",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdint.h"
-    },
-    "name": "__data_uintptr_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:stdint.h@T@__data_intptr_t",
     "What": "Typedef",
     "defdec": "Def",
@@ -94375,6 +94361,20 @@
       "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdint.h"
     },
     "name": "__data_intptr_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdint.h@T@__data_uintptr_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned int",
+    "location": {
+      "column": "1",
+      "line": "89",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdint.h"
+    },
+    "name": "__data_uintptr_t",
     "origin": "system_include",
     "scope": null
   },
@@ -95233,384 +95233,6 @@
     "scope": null
   },
   {
-    "ID": "c:DLib_Product.h@75@macro@_DLIB_PRODUCTS_H_",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRODUCTS_H_",
-    "location": {
-      "column": "9",
-      "line": "4",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_PRODUCTS_H_",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@524@macro@_DLIB_WIDE_CHARACTERS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_WIDE_CHARACTERS",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_WIDE_CHARACTERS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@680@macro@_DLIB_PRODUCT_STRING",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRODUCT_STRING",
-    "location": {
-      "column": "9",
-      "line": "25",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_PRODUCT_STRING",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@831@macro@_DLIB_PRODUCT_FENV",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRODUCT_FENV",
-    "location": {
-      "column": "9",
-      "line": "29",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_PRODUCT_FENV",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@984@macro@_DLIB_PRODUCT_STDLIB",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRODUCT_STDLIB",
-    "location": {
-      "column": "9",
-      "line": "33",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_PRODUCT_STDLIB",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1095@macro@_DLIB_QSORT_BUF_SIZE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_QSORT_BUF_SIZE",
-    "location": {
-      "column": "9",
-      "line": "37",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_QSORT_BUF_SIZE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1270@macro@_DLIB_SUPPORT_FOR_AEABI",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_SUPPORT_FOR_AEABI",
-    "location": {
-      "column": "9",
-      "line": "46",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_SUPPORT_FOR_AEABI",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1353@macro@_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "location": {
-      "column": "9",
-      "line": "49",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1479@macro@_DLIB_STRTOD_HEX_FLOAT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_STRTOD_HEX_FLOAT",
-    "location": {
-      "column": "9",
-      "line": "53",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_STRTOD_HEX_FLOAT",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1833@macro@_USE_ATOMIC_OPS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_USE_ATOMIC_OPS",
-    "location": {
-      "column": "11",
-      "line": "65",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_USE_ATOMIC_OPS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1992@macro@__SOFTFP",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__SOFTFP",
-    "location": {
-      "column": "11",
-      "line": "70",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "__SOFTFP",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2116@macro@__NO_SCRATCH",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__NO_SCRATCH",
-    "location": {
-      "column": "9",
-      "line": "74",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "__NO_SCRATCH",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2240@macro@_DLIB_SPEEDY_FLOATS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_SPEEDY_FLOATS",
-    "location": {
-      "column": "9",
-      "line": "77",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_SPEEDY_FLOATS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2301@macro@_DLIB_TIME_USES_64_DEFAULT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_TIME_USES_64_DEFAULT",
-    "location": {
-      "column": "9",
-      "line": "80",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_TIME_USES_64_DEFAULT",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2414@macro@_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
-    "location": {
-      "column": "11",
-      "line": "84",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2498@macro@_DLIB_ELF_INIT_STATIC_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_STATIC_BASE",
-    "location": {
-      "column": "11",
-      "line": "85",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_STATIC_BASE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2545@macro@_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
-    "location": {
-      "column": "11",
-      "line": "86",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2905@macro@_DLIB_ELF_INIT_TABLE_MEMORY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_TABLE_MEMORY",
-    "location": {
-      "column": "9",
-      "line": "96",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_TABLE_MEMORY",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2955@macro@_DLIB_ELF_INIT_SOURCE_MEMORY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_SOURCE_MEMORY",
-    "location": {
-      "column": "9",
-      "line": "97",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_SOURCE_MEMORY",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@3005@macro@_DLIB_ELF_INIT_DESTINATION_MEMORY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_DESTINATION_MEMORY",
-    "location": {
-      "column": "9",
-      "line": "98",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_DESTINATION_MEMORY",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@3153@macro@_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
-    "location": {
-      "column": "11",
-      "line": "103",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@3214@macro@_DLIB_ELF_INIT_REGION_COUNT_TYPE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_REGION_COUNT_TYPE",
-    "location": {
-      "column": "9",
-      "line": "105",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_REGION_COUNT_TYPE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@3266@macro@_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
-    "location": {
-      "column": "9",
-      "line": "106",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@3458@macro@_DLIB_ELF_INIT_INTERFACE_VERSION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_INTERFACE_VERSION",
-    "location": {
-      "column": "9",
-      "line": "110",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_INTERFACE_VERSION",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@3504@macro@_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "location": {
-      "column": "9",
-      "line": "112",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@3556@macro@_XMATHWRAPPERS_DEF",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_XMATHWRAPPERS_DEF",
-    "location": {
-      "column": "9",
-      "line": "114",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_XMATHWRAPPERS_DEF",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@3605@macro@_CPPINIT_ATTR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_CPPINIT_ATTR",
-    "location": {
-      "column": "9",
-      "line": "116",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_CPPINIT_ATTR",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:DLib_Defaults.h@1169@macro@_DLIB_DEFAULTS_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -96311,13 +95933,139 @@
     "scope": null
   },
   {
+    "ID": "c:DIO.h@1415@macro@GPIO_PORT_AFSEL_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORT_AFSEL_R",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
+    },
+    "name": "GPIO_PORT_AFSEL_R",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DIO.h@1535@macro@GPIO_PORT_PCTL_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORT_PCTL_R",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
+    },
+    "name": "GPIO_PORT_PCTL_R",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DIO.h@1663@macro@UART_CTL_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_CTL_R",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
+    },
+    "name": "UART_CTL_R",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DIO.h@1762@macro@UART_IBRD_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_IBRD_R",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
+    },
+    "name": "UART_IBRD_R",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DIO.h@1874@macro@UART_FBRD_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_FBRD_R",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
+    },
+    "name": "UART_FBRD_R",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DIO.h@1989@macro@UART_CC_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_CC_R",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
+    },
+    "name": "UART_CC_R",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DIO.h@2089@macro@UART_LCRH_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_LCRH_R",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
+    },
+    "name": "UART_LCRH_R",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DIO.h@2188@macro@UART_DR_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_DR_R",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
+    },
+    "name": "UART_DR_R",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DIO.h@2288@macro@UART_FR_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_FR_R",
+    "location": {
+      "column": "9",
+      "line": "47",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
+    },
+    "name": "UART_FR_R",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@dio_init",
     "What": "Function",
     "defdec": "Dec",
     "display": "void dio_init(char, uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "39",
+      "line": "52",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
     },
     "name": "dio_init",
@@ -96331,7 +96079,7 @@
     "display": "void dio_init(char, uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "39",
+      "line": "52",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
     },
     "name": "dio_init",
@@ -96345,7 +96093,7 @@
     "display": "uint8_t dio_readpin(char, uint8_t)",
     "location": {
       "column": "9",
-      "line": "40",
+      "line": "53",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
     },
     "name": "dio_readpin",
@@ -96359,7 +96107,7 @@
     "display": "uint8_t dio_readpin(char, uint8_t)",
     "location": {
       "column": "9",
-      "line": "40",
+      "line": "53",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
     },
     "name": "dio_readpin",
@@ -96373,7 +96121,7 @@
     "display": "uint8_t dio_readport(char)",
     "location": {
       "column": "9",
-      "line": "41",
+      "line": "54",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
     },
     "name": "dio_readport",
@@ -96387,7 +96135,7 @@
     "display": "uint8_t dio_readport(char)",
     "location": {
       "column": "9",
-      "line": "41",
+      "line": "54",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
     },
     "name": "dio_readport",
@@ -96401,7 +96149,7 @@
     "display": "void dio_writepin(char, uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "42",
+      "line": "55",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
     },
     "name": "dio_writepin",
@@ -96415,7 +96163,7 @@
     "display": "void dio_writepin(char, uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "42",
+      "line": "55",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
     },
     "name": "dio_writepin",
@@ -96429,7 +96177,7 @@
     "display": "void dio_writeport(char, uint8_t)",
     "location": {
       "column": "6",
-      "line": "43",
+      "line": "56",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
     },
     "name": "dio_writeport",
@@ -96443,10 +96191,612 @@
     "display": "void dio_writeport(char, uint8_t)",
     "location": {
       "column": "6",
-      "line": "43",
+      "line": "56",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
     },
     "name": "dio_writeport",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ctz",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t ctz(uint32_t)",
+    "location": {
+      "column": "9",
+      "line": "57",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
+    },
+    "name": "ctz",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ctz",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t ctz(uint32_t)",
+    "location": {
+      "column": "9",
+      "line": "57",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DIO\\DIO.h"
+    },
+    "name": "ctz",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@75@macro@_DLIB_PRODUCTS_H_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRODUCTS_H_",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_PRODUCTS_H_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@524@macro@_DLIB_WIDE_CHARACTERS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_WIDE_CHARACTERS",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_WIDE_CHARACTERS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@680@macro@_DLIB_PRODUCT_STRING",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRODUCT_STRING",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_PRODUCT_STRING",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@831@macro@_DLIB_PRODUCT_FENV",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRODUCT_FENV",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_PRODUCT_FENV",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@984@macro@_DLIB_PRODUCT_STDLIB",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRODUCT_STDLIB",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_PRODUCT_STDLIB",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1095@macro@_DLIB_QSORT_BUF_SIZE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_QSORT_BUF_SIZE",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_QSORT_BUF_SIZE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1270@macro@_DLIB_SUPPORT_FOR_AEABI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_SUPPORT_FOR_AEABI",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_SUPPORT_FOR_AEABI",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1353@macro@_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1479@macro@_DLIB_STRTOD_HEX_FLOAT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STRTOD_HEX_FLOAT",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_STRTOD_HEX_FLOAT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1833@macro@_USE_ATOMIC_OPS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_USE_ATOMIC_OPS",
+    "location": {
+      "column": "11",
+      "line": "65",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_USE_ATOMIC_OPS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1992@macro@__SOFTFP",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SOFTFP",
+    "location": {
+      "column": "11",
+      "line": "70",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "__SOFTFP",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2116@macro@__NO_SCRATCH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__NO_SCRATCH",
+    "location": {
+      "column": "9",
+      "line": "74",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "__NO_SCRATCH",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2240@macro@_DLIB_SPEEDY_FLOATS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_SPEEDY_FLOATS",
+    "location": {
+      "column": "9",
+      "line": "77",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_SPEEDY_FLOATS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2301@macro@_DLIB_TIME_USES_64_DEFAULT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_TIME_USES_64_DEFAULT",
+    "location": {
+      "column": "9",
+      "line": "80",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_TIME_USES_64_DEFAULT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2414@macro@_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
+    "location": {
+      "column": "11",
+      "line": "84",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2498@macro@_DLIB_ELF_INIT_STATIC_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_STATIC_BASE",
+    "location": {
+      "column": "11",
+      "line": "85",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_STATIC_BASE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2545@macro@_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
+    "location": {
+      "column": "11",
+      "line": "86",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2905@macro@_DLIB_ELF_INIT_TABLE_MEMORY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_TABLE_MEMORY",
+    "location": {
+      "column": "9",
+      "line": "96",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_TABLE_MEMORY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2955@macro@_DLIB_ELF_INIT_SOURCE_MEMORY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_SOURCE_MEMORY",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_SOURCE_MEMORY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@3005@macro@_DLIB_ELF_INIT_DESTINATION_MEMORY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_DESTINATION_MEMORY",
+    "location": {
+      "column": "9",
+      "line": "98",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_DESTINATION_MEMORY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@3153@macro@_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
+    "location": {
+      "column": "11",
+      "line": "103",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@3214@macro@_DLIB_ELF_INIT_REGION_COUNT_TYPE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_REGION_COUNT_TYPE",
+    "location": {
+      "column": "9",
+      "line": "105",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_REGION_COUNT_TYPE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@3266@macro@_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
+    "location": {
+      "column": "9",
+      "line": "106",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@3458@macro@_DLIB_ELF_INIT_INTERFACE_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_INTERFACE_VERSION",
+    "location": {
+      "column": "9",
+      "line": "110",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_INTERFACE_VERSION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@3504@macro@_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "location": {
+      "column": "9",
+      "line": "112",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@3556@macro@_XMATHWRAPPERS_DEF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_XMATHWRAPPERS_DEF",
+    "location": {
+      "column": "9",
+      "line": "114",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_XMATHWRAPPERS_DEF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@3605@macro@_CPPINIT_ATTR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_CPPINIT_ATTR",
+    "location": {
+      "column": "9",
+      "line": "116",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_CPPINIT_ATTR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@1402@macro@__AEABI_PORTABILITY_INTERNAL_LEVEL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__AEABI_PORTABILITY_INTERNAL_LEVEL",
+    "location": {
+      "column": "11",
+      "line": "42",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\ycheck.h"
+    },
+    "name": "__AEABI_PORTABILITY_INTERNAL_LEVEL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Alarm.h@25@macro@ALARM_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ALARM_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Alarm\\Alarm.h"
+    },
+    "name": "ALARM_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Alarm_init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Alarm_init(char, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Alarm\\Alarm.h"
+    },
+    "name": "Alarm_init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Alarm_init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Alarm_init(char, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Alarm\\Alarm.h"
+    },
+    "name": "Alarm_init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Toggle_alarm",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Toggle_alarm(char, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Alarm\\Alarm.h"
+    },
+    "name": "Toggle_alarm",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Toggle_alarm",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Toggle_alarm(char, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Alarm\\Alarm.h"
+    },
+    "name": "Toggle_alarm",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Normal.h@105@macro@_DLIB_CONFIG_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_CONFIG_H",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Config_Normal.h"
+    },
+    "name": "_DLIB_CONFIG_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Alarm_init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Alarm_init(char, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Alarm\\Alarm.c"
+    },
+    "name": "Alarm_init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Toggle_alarm",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Toggle_alarm(char, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "9",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Alarm\\Alarm.c"
+    },
+    "name": "Toggle_alarm",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:bitwise_operations.h@38@macro@BITWISE_OPERATIONS_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BITWISE_OPERATIONS_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\bitwise_operations.h"
+    },
+    "name": "BITWISE_OPERATIONS_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:bitwise_operations.h@70@macro@SET_BIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SET_BIT",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\bitwise_operations.h"
+    },
+    "name": "SET_BIT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:bitwise_operations.h@128@macro@CLEAR_BIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CLEAR_BIT",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\bitwise_operations.h"
+    },
+    "name": "CLEAR_BIT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:bitwise_operations.h@187@macro@TOGGLE_BIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TOGGLE_BIT",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\bitwise_operations.h"
+    },
+    "name": "TOGGLE_BIT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:bitwise_operations.h@245@macro@GET_BIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GET_BIT",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\bitwise_operations.h"
+    },
+    "name": "GET_BIT",
     "origin": "user_include",
     "scope": null
   },
@@ -96619,101 +96969,549 @@
     "scope": null
   },
   {
-    "ID": "c:bitwise_operations.h@38@macro@BITWISE_OPERATIONS_H",
+    "ID": "c:DataLogging.h@31@macro@DATALOGGING_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "BITWISE_OPERATIONS_H",
+    "display": "DATALOGGING_H",
     "location": {
       "column": "9",
       "line": "2",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\bitwise_operations.h"
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DataLogging\\DataLogging.h"
     },
-    "name": "BITWISE_OPERATIONS_H",
+    "name": "DATALOGGING_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:bitwise_operations.h@70@macro@SET_BIT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SET_BIT",
+    "ID": "c:@F@DoorLogging_init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void DoorLogging_init(void)",
     "location": {
-      "column": "9",
-      "line": "4",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\bitwise_operations.h"
+      "column": "6",
+      "line": "7",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DataLogging\\DataLogging.h"
     },
-    "name": "SET_BIT",
+    "name": "DoorLogging_init",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:bitwise_operations.h@128@macro@CLEAR_BIT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CLEAR_BIT",
+    "ID": "c:@F@DoorLogging_init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void DoorLogging_init(void)",
     "location": {
-      "column": "9",
-      "line": "6",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\bitwise_operations.h"
+      "column": "6",
+      "line": "7",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DataLogging\\DataLogging.h"
     },
-    "name": "CLEAR_BIT",
+    "name": "DoorLogging_init",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:bitwise_operations.h@187@macro@TOGGLE_BIT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TOGGLE_BIT",
+    "ID": "c:@F@setDataLog",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void setDataLog(bool)",
     "location": {
-      "column": "9",
+      "column": "6",
       "line": "8",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\bitwise_operations.h"
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DataLogging\\DataLogging.h"
     },
-    "name": "TOGGLE_BIT",
+    "name": "setDataLog",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:bitwise_operations.h@245@macro@GET_BIT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GET_BIT",
+    "ID": "c:@F@setDataLog",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void setDataLog(_Bool)",
     "location": {
-      "column": "9",
+      "column": "6",
+      "line": "8",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DataLogging\\DataLogging.h"
+    },
+    "name": "setDataLog",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@getDoorOpenLog",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32_t getDoorOpenLog(void)",
+    "location": {
+      "column": "10",
+      "line": "9",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DataLogging\\DataLogging.h"
+    },
+    "name": "getDoorOpenLog",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@getDoorOpenLog",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32_t getDoorOpenLog(void)",
+    "location": {
+      "column": "10",
+      "line": "9",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DataLogging\\DataLogging.h"
+    },
+    "name": "getDoorOpenLog",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@getDoorCloseLog",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32_t getDoorCloseLog(void)",
+    "location": {
+      "column": "10",
       "line": "10",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\bitwise_operations.h"
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DataLogging\\DataLogging.h"
     },
-    "name": "GET_BIT",
+    "name": "getDoorCloseLog",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:ycheck.h@1402@macro@__AEABI_PORTABILITY_INTERNAL_LEVEL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__AEABI_PORTABILITY_INTERNAL_LEVEL",
+    "ID": "c:@F@getDoorCloseLog",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32_t getDoorCloseLog(void)",
     "location": {
-      "column": "11",
-      "line": "42",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\ycheck.h"
+      "column": "10",
+      "line": "10",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DataLogging\\DataLogging.h"
     },
-    "name": "__AEABI_PORTABILITY_INTERNAL_LEVEL",
-    "origin": "system_include",
+    "name": "getDoorCloseLog",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Config_Normal.h@105@macro@_DLIB_CONFIG_H",
+    "ID": "c:DataLogging.c@doorOpenLog",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "doorOpenLog",
+    "location": {
+      "column": "17",
+      "line": "3",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DataLogging\\DataLogging.c"
+    },
+    "name": "doorOpenLog",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:DataLogging.c@doorCloseLog",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "doorCloseLog",
+    "location": {
+      "column": "17",
+      "line": "4",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DataLogging\\DataLogging.c"
+    },
+    "name": "doorCloseLog",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DoorLogging_init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void DoorLogging_init(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DataLogging\\DataLogging.c"
+    },
+    "name": "DoorLogging_init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@setDataLog",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void setDataLog(_Bool)",
+    "location": {
+      "column": "6",
+      "line": "13",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DataLogging\\DataLogging.c"
+    },
+    "name": "setDataLog",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@getDoorOpenLog",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t getDoorOpenLog(void)",
+    "location": {
+      "column": "10",
+      "line": "22",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DataLogging\\DataLogging.c"
+    },
+    "name": "getDoorOpenLog",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@getDoorCloseLog",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t getDoorCloseLog(void)",
+    "location": {
+      "column": "10",
+      "line": "27",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DataLogging\\DataLogging.c"
+    },
+    "name": "getDoorCloseLog",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@96@macro@_STDBOOL",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_DLIB_CONFIG_H",
+    "display": "_STDBOOL",
     "location": {
       "column": "9",
       "line": "5",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Config_Normal.h"
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdbool.h"
     },
-    "name": "_DLIB_CONFIG_H",
+    "name": "_STDBOOL",
     "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@200@macro@bool",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "bool",
+    "location": {
+      "column": "11",
+      "line": "13",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "bool",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@225@macro@true",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "true",
+    "location": {
+      "column": "11",
+      "line": "14",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "true",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@246@macro@false",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "false",
+    "location": {
+      "column": "11",
+      "line": "15",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "false",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@275@macro@__bool_true_false_are_defined",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__bool_true_false_are_defined",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "__bool_true_false_are_defined",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART.h@24@macro@UART_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.h"
+    },
+    "name": "UART_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART.h@186@macro@UART1_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART1_BASE",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.h"
+    },
+    "name": "UART1_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART.h@218@macro@UART3_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART3_BASE",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.h"
+    },
+    "name": "UART3_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART.h@250@macro@UART5_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART5_BASE",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.h"
+    },
+    "name": "UART5_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART_Init(uint8_t, uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "15",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.h"
+    },
+    "name": "UART_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART_Init(uint8_t, uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "15",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.h"
+    },
+    "name": "UART_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART_Transmit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART_Transmit(uint8_t, char)",
+    "location": {
+      "column": "6",
+      "line": "16",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.h"
+    },
+    "name": "UART_Transmit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART_Transmit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART_Transmit(uint8_t, char)",
+    "location": {
+      "column": "6",
+      "line": "16",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.h"
+    },
+    "name": "UART_Transmit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART_Receive",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char UART_Receive(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.h"
+    },
+    "name": "UART_Receive",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART_Receive",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char UART_Receive(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.h"
+    },
+    "name": "UART_Receive",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DoorStatus.h@30@macro@DOORSTATUS_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DOORSTATUS_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DoorStatus\\DoorStatus.h"
+    },
+    "name": "DOORSTATUS_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DoorStatus_init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void DoorStatus_init(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DoorStatus\\DoorStatus.h"
+    },
+    "name": "DoorStatus_init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DoorStatus_init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void DoorStatus_init(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DoorStatus\\DoorStatus.h"
+    },
+    "name": "DoorStatus_init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@getDoorStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "bool getDoorStatus(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DoorStatus\\DoorStatus.h"
+    },
+    "name": "getDoorStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@getDoorStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "_Bool getDoorStatus(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DoorStatus\\DoorStatus.h"
+    },
+    "name": "getDoorStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DoorStatus.c@doorStatus",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "doorStatus",
+    "location": {
+      "column": "13",
+      "line": "5",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DoorStatus\\DoorStatus.c"
+    },
+    "name": "doorStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DoorStatus_init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void DoorStatus_init(void)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DoorStatus\\DoorStatus.c"
+    },
+    "name": "DoorStatus_init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@getDoorStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "_Bool getDoorStatus(void)",
+    "location": {
+      "column": "6",
+      "line": "13",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DoorStatus\\DoorStatus.c"
+    },
+    "name": "getDoorStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:DoorStatus.c@299@F@getDoorStatus@status",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "status",
+    "location": {
+      "column": "10",
+      "line": "14",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DoorStatus\\DoorStatus.c"
+    },
+    "name": "status",
+    "origin": "project_file",
     "scope": null
   },
   {
@@ -96765,7 +97563,21 @@
     "display": "void Relay_Init(char, uint8_t)",
     "location": {
       "column": "6",
-      "line": "12",
+      "line": "11",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Relay\\Relay.h"
+    },
+    "name": "Relay_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Relay_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Relay_Init(char, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "11",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Relay\\Relay.h"
     },
     "name": "Relay_Init",
@@ -96779,7 +97591,7 @@
     "display": "void Relay_Control(char, uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "13",
+      "line": "12",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Relay\\Relay.h"
     },
     "name": "Relay_Control",
@@ -96787,16 +97599,16 @@
     "scope": null
   },
   {
-    "ID": "c:@F@Relay_Toggle",
+    "ID": "c:@F@Relay_Control",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void Relay_Toggle(char, uint8_t)",
+    "display": "void Relay_Control(char, uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "14",
+      "line": "12",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Relay\\Relay.h"
     },
-    "name": "Relay_Toggle",
+    "name": "Relay_Control",
     "origin": "user_include",
     "scope": null
   },
@@ -96821,7 +97633,7 @@
     "display": "void Relay_Control(char, uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "10",
+      "line": "11",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Relay\\Relay.c"
     },
     "name": "Relay_Control",
@@ -96829,31 +97641,129 @@
     "scope": null
   },
   {
-    "ID": "c:@F@Relay_Toggle",
-    "What": "Function",
+    "ID": "c:SysTick.h@32@macro@SYSTICKTIMER_H",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "void Relay_Toggle(char, uint8_t)",
+    "display": "SYSTICKTIMER_H",
     "location": {
-      "column": "6",
-      "line": "19",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Relay\\Relay.c"
+      "column": "9",
+      "line": "2",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
     },
-    "name": "Relay_Toggle",
-    "origin": "project_file",
+    "name": "SYSTICKTIMER_H",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Relay.c@553@F@Relay_Toggle@current_state",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "current_state",
+    "ID": "c:@F@SysTick_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SysTick_Init(uint32_t)",
     "location": {
-      "column": "13",
-      "line": "20",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Relay\\Relay.c"
+      "column": "6",
+      "line": "9",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
     },
-    "name": "current_state",
-    "origin": "project_file",
+    "name": "SysTick_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Enable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SysTick_Enable(void)",
+    "location": {
+      "column": "6",
+      "line": "10",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
+    },
+    "name": "SysTick_Enable",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Disable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SysTick_Disable(void)",
+    "location": {
+      "column": "6",
+      "line": "11",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
+    },
+    "name": "SysTick_Disable",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_PeriodSet",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SysTick_PeriodSet(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "12",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
+    },
+    "name": "SysTick_PeriodSet",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_PeriodGet",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32_t SysTick_PeriodGet(void)",
+    "location": {
+      "column": "10",
+      "line": "13",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
+    },
+    "name": "SysTick_PeriodGet",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_ValueGet",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32_t SysTick_ValueGet(void)",
+    "location": {
+      "column": "10",
+      "line": "14",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
+    },
+    "name": "SysTick_ValueGet",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Is_Time_Out",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "bool SysTick_Is_Time_Out(void)",
+    "location": {
+      "column": "6",
+      "line": "15",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
+    },
+    "name": "SysTick_Is_Time_Out",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_InitInterrupt",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SysTick_InitInterrupt(uint32_t, void (*)(void))",
+    "location": {
+      "column": "6",
+      "line": "18",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
+    },
+    "name": "SysTick_InitInterrupt",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -96997,1213 +97907,465 @@
     "scope": null
   },
   {
-    "ID": "c:SysTick.h@32@macro@SYSTICKTIMER_H",
+    "ID": "c:LM35.h@24@macro@LM35_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "SYSTICKTIMER_H",
+    "display": "LM35_H",
     "location": {
       "column": "9",
       "line": "2",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Temperature\\LM35.h"
     },
-    "name": "SYSTICKTIMER_H",
+    "name": "LM35_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@SysTick_Init",
+    "ID": "c:@F@LM35_init",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void SysTick_Init(uint32_t)",
+    "display": "void LM35_init(void)",
     "location": {
       "column": "6",
-      "line": "9",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
+      "line": "6",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Temperature\\LM35.h"
     },
-    "name": "SysTick_Init",
+    "name": "LM35_init",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@SysTick_Enable",
+    "ID": "c:@F@LM35_init",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void SysTick_Enable(void)",
+    "display": "void LM35_init(void)",
     "location": {
       "column": "6",
-      "line": "10",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
+      "line": "6",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Temperature\\LM35.h"
     },
-    "name": "SysTick_Enable",
+    "name": "LM35_init",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@SysTick_Disable",
+    "ID": "c:@F@GetTemp",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void SysTick_Disable(void)",
+    "display": "uint32_t GetTemp(void)",
     "location": {
-      "column": "6",
-      "line": "11",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
+      "column": "10",
+      "line": "7",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Temperature\\LM35.h"
     },
-    "name": "SysTick_Disable",
+    "name": "GetTemp",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@SysTick_PeriodSet",
+    "ID": "c:@F@GetTemp",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void SysTick_PeriodSet(uint32_t)",
+    "display": "uint32_t GetTemp(void)",
+    "location": {
+      "column": "10",
+      "line": "7",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Temperature\\LM35.h"
+    },
+    "name": "GetTemp",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:LM35.c@temperature",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "temperature",
+    "location": {
+      "column": "17",
+      "line": "4",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Temperature\\LM35.c"
+    },
+    "name": "temperature",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LM35_init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LM35_init(void)",
     "location": {
       "column": "6",
+      "line": "7",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Temperature\\LM35.c"
+    },
+    "name": "LM35_init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GetTemp",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t GetTemp(void)",
+    "location": {
+      "column": "10",
       "line": "12",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Temperature\\LM35.c"
     },
-    "name": "SysTick_PeriodSet",
-    "origin": "user_include",
+    "name": "GetTemp",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@SysTick_PeriodGet",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint32_t SysTick_PeriodGet(void)",
+    "ID": "c:LM35.c@260@F@GetTemp@tempData",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tempData",
     "location": {
       "column": "10",
       "line": "13",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Temperature\\LM35.c"
     },
-    "name": "SysTick_PeriodGet",
-    "origin": "user_include",
+    "name": "tempData",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@SysTick_ValueGet",
+    "ID": "c:@F@UART_Init",
     "What": "Function",
-    "defdec": "Dec",
-    "display": "uint32_t SysTick_ValueGet(void)",
-    "location": {
-      "column": "10",
-      "line": "14",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
-    },
-    "name": "SysTick_ValueGet",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SysTick_Is_Time_Out",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "bool SysTick_Is_Time_Out(void)",
+    "defdec": "Def",
+    "display": "void UART_Init(uint8_t, uint32_t)",
     "location": {
       "column": "6",
-      "line": "15",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
+      "line": "4",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.c"
     },
-    "name": "SysTick_Is_Time_Out",
-    "origin": "user_include",
+    "name": "UART_Init",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@SysTick_InitInterrupt",
-    "What": "Function",
+    "ID": "c:UART.c@99@F@UART_Init@uartBase",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "uartBase",
+    "location": {
+      "column": "14",
+      "line": "5",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.c"
+    },
+    "name": "uartBase",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:UART.c@99@F@UART_Init@gpioBase",
+    "What": "Variable",
     "defdec": "Dec",
-    "display": "void SysTick_InitInterrupt(uint32_t, void (*)(void))",
+    "display": "gpioBase",
+    "location": {
+      "column": "24",
+      "line": "5",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.c"
+    },
+    "name": "gpioBase",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:UART.c@99@F@UART_Init@rxPin",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "rxPin",
+    "location": {
+      "column": "34",
+      "line": "5",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.c"
+    },
+    "name": "rxPin",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:UART.c@99@F@UART_Init@txPin",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "txPin",
+    "location": {
+      "column": "41",
+      "line": "5",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.c"
+    },
+    "name": "txPin",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART_Transmit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART_Transmit(uint8_t, char)",
     "location": {
       "column": "6",
-      "line": "18",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Systick\\Systick.h"
-    },
-    "name": "SysTick_InitInterrupt",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@96@macro@_STDBOOL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STDBOOL",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "_STDBOOL",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@200@macro@bool",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "bool",
-    "location": {
-      "column": "11",
-      "line": "13",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "bool",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@225@macro@true",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "true",
-    "location": {
-      "column": "11",
-      "line": "14",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "true",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@246@macro@false",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "false",
-    "location": {
-      "column": "11",
-      "line": "15",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "false",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@275@macro@__bool_true_false_are_defined",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__bool_true_false_are_defined",
-    "location": {
-      "column": "9",
-      "line": "18",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "__bool_true_false_are_defined",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdlib.h@102@macro@_STDLIB",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STDLIB",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "_STDLIB",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Mbcurmax",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "size_t __iar_Mbcurmax(void)",
-    "location": {
-      "column": "25",
-      "line": "31",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "__iar_Mbcurmax",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdlib.h@753@macro@MB_CUR_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "MB_CUR_MAX",
-    "location": {
-      "column": "11",
-      "line": "33",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "MB_CUR_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdlib.h@842@macro@NULL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "NULL",
-    "location": {
-      "column": "11",
-      "line": "39",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "NULL",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdlib.h@873@macro@EXIT_FAILURE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "EXIT_FAILURE",
-    "location": {
-      "column": "9",
-      "line": "42",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "EXIT_FAILURE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdlib.h@900@macro@EXIT_SUCCESS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "EXIT_SUCCESS",
-    "location": {
-      "column": "9",
-      "line": "43",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "EXIT_SUCCESS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdlib.h@954@macro@RAND_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RAND_MAX",
-    "location": {
-      "column": "11",
-      "line": "46",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "RAND_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdlib.h@1080@macro@_WCHART",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_WCHART",
-    "location": {
-      "column": "11",
-      "line": "53",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "_WCHART",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdlib.h@T@wchar_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "_Wchart",
-    "location": {
-      "column": "19",
-      "line": "54",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "wchar_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@SA@div_t",
-    "What": "Struct",
-    "defdec": "Def",
-    "display": "",
-    "location": {
-      "column": "9",
-      "line": "57",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "members": [
-      {
-        "ID": "c:@SA@div_t@FI@quot",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "quot",
-        "location": {
-          "column": "7",
-          "line": "59",
-          "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-        },
-        "name": "quot",
-        "origin": "system_include",
-        "scope": "_anonymous_stdlib_h_57_9"
-      },
-      {
-        "ID": "c:@SA@div_t@FI@rem",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "rem",
-        "location": {
-          "column": "7",
-          "line": "60",
-          "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-        },
-        "name": "rem",
-        "origin": "system_include",
-        "scope": "_anonymous_stdlib_h_57_9"
-      }
-    ],
-    "name": "",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@T@div_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "struct div_t",
-    "location": {
-      "column": "3",
       "line": "61",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.c"
     },
-    "name": "div_t",
-    "origin": "system_include",
+    "name": "UART_Transmit",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@SA@ldiv_t",
-    "What": "Struct",
+    "ID": "c:UART.c@2531@F@UART_Transmit@uartBase",
+    "What": "Variable",
     "defdec": "Def",
-    "display": "",
+    "display": "uartBase",
     "location": {
-      "column": "9",
-      "line": "63",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
+      "column": "14",
+      "line": "62",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.c"
     },
-    "members": [
-      {
-        "ID": "c:@SA@ldiv_t@FI@quot",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "quot",
-        "location": {
-          "column": "8",
-          "line": "65",
-          "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-        },
-        "name": "quot",
-        "origin": "system_include",
-        "scope": "_anonymous_stdlib_h_63_9"
-      },
-      {
-        "ID": "c:@SA@ldiv_t@FI@rem",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "rem",
-        "location": {
-          "column": "8",
-          "line": "66",
-          "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-        },
-        "name": "rem",
-        "origin": "system_include",
-        "scope": "_anonymous_stdlib_h_63_9"
-      }
-    ],
-    "name": "",
-    "origin": "system_include",
+    "name": "uartBase",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@T@ldiv_t",
-    "What": "Typedef",
+    "ID": "c:@F@UART_Receive",
+    "What": "Function",
     "defdec": "Def",
-    "display": "struct ldiv_t",
+    "display": "char UART_Receive(uint8_t)",
     "location": {
-      "column": "3",
-      "line": "67",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
+      "column": "6",
+      "line": "74",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.c"
     },
-    "name": "ldiv_t",
-    "origin": "system_include",
+    "name": "UART_Receive",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@SA@lldiv_t",
-    "What": "Struct",
+    "ID": "c:UART.c@2939@F@UART_Receive@uartBase",
+    "What": "Variable",
     "defdec": "Def",
-    "display": "",
+    "display": "uartBase",
     "location": {
-      "column": "11",
-      "line": "70",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
+      "column": "14",
+      "line": "75",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.c"
     },
-    "members": [
-      {
-        "ID": "c:@SA@lldiv_t@FI@quot",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "quot",
-        "location": {
-          "column": "15",
-          "line": "72",
-          "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-        },
-        "name": "quot",
-        "origin": "system_include",
-        "scope": "_anonymous_stdlib_h_70_11"
-      },
-      {
-        "ID": "c:@SA@lldiv_t@FI@rem",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "rem",
-        "location": {
-          "column": "15",
-          "line": "73",
-          "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-        },
-        "name": "rem",
-        "origin": "system_include",
-        "scope": "_anonymous_stdlib_h_70_11"
-      }
-    ],
-    "name": "",
-    "origin": "system_include",
+    "name": "uartBase",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@T@lldiv_t",
-    "What": "Typedef",
+    "ID": "c:@F@relayControl",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void relayControl(char)",
+    "location": {
+      "column": "6",
+      "line": "148",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
+    },
+    "name": "relayControl",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@received_char",
+    "What": "Variable",
     "defdec": "Def",
-    "display": "struct lldiv_t",
+    "display": "received_char",
+    "location": {
+      "column": "15",
+      "line": "149",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
+    },
+    "name": "received_char",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@received_data",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "received_data",
+    "location": {
+      "column": "18",
+      "line": "150",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
+    },
+    "name": "received_data",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@doorStatus",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "doorStatus",
+    "location": {
+      "column": "15",
+      "line": "151",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
+    },
+    "name": "doorStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PortB_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PortB_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "152",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
+    },
+    "name": "PortB_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Init_TEST",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SysTick_Init_TEST(void)",
+    "location": {
+      "column": "6",
+      "line": "153",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
+    },
+    "name": "SysTick_Init_TEST",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_GetTime_TEST",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32_t SysTick_GetTime_TEST(void)",
+    "location": {
+      "column": "10",
+      "line": "154",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
+    },
+    "name": "SysTick_GetTime_TEST",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Wait",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SysTick_Wait(void)",
+    "location": {
+      "column": "6",
+      "line": "159",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
+    },
+    "name": "SysTick_Wait",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "74",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
+      "line": "163",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
     },
-    "name": "lldiv_t",
-    "origin": "system_include",
+    "name": "main",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@atexit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int atexit(void (*)(void))",
-    "location": {
-      "column": "32",
-      "line": "91",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "atexit",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@at_quick_exit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int at_quick_exit(void (*)(void))",
-    "location": {
-      "column": "32",
-      "line": "93",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "at_quick_exit",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@_Exit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void _Exit(int)",
-    "location": {
-      "column": "32",
-      "line": "94",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "_Exit",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@quick_exit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void quick_exit(int)",
-    "location": {
-      "column": "32",
-      "line": "95",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "quick_exit",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@exit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void exit(int)",
-    "location": {
-      "column": "32",
-      "line": "97",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "exit",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@getenv",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * getenv(const char *)",
-    "location": {
-      "column": "32",
-      "line": "98",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "getenv",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@system",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int system(const char *)",
-    "location": {
-      "column": "32",
-      "line": "99",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "system",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@aligned_alloc",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * aligned_alloc(size_t, size_t)",
-    "location": {
-      "column": "39",
-      "line": "104",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "aligned_alloc",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@abort",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void abort(void)",
-    "location": {
-      "column": "39",
-      "line": "106",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "abort",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@abs",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int abs(int)",
-    "location": {
-      "column": "39",
-      "line": "107",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "abs",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@calloc",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * calloc(size_t, size_t)",
-    "location": {
-      "column": "39",
-      "line": "108",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "calloc",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@div",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "div_t div(int, int)",
-    "location": {
-      "column": "39",
-      "line": "109",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "div",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@free",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void free(void *)",
-    "location": {
-      "column": "39",
-      "line": "110",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "free",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@labs",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "long labs(long)",
-    "location": {
-      "column": "39",
-      "line": "111",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "labs",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ldiv",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "ldiv_t ldiv(long, long)",
-    "location": {
-      "column": "39",
-      "line": "112",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "ldiv",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@llabs",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "long long llabs(long long)",
-    "location": {
-      "column": "39",
-      "line": "114",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "llabs",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@lldiv",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "lldiv_t lldiv(long long, long long)",
-    "location": {
-      "column": "39",
-      "line": "115",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "lldiv",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@fabs",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "double fabs(double)",
-    "location": {
-      "column": "39",
-      "line": "117",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "fabs",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@fabsf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "float fabsf(float)",
-    "location": {
-      "column": "39",
-      "line": "118",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "fabsf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@fabsl",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "long double fabsl(long double)",
-    "location": {
-      "column": "41",
-      "line": "119",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "fabsl",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@malloc",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * malloc(size_t)",
-    "location": {
-      "column": "39",
-      "line": "120",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "malloc",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@mblen",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int mblen(const char *, size_t)",
-    "location": {
-      "column": "39",
-      "line": "121",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "mblen",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@mbstowcs",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "size_t mbstowcs(wchar_t *restrict, const char *restrict, size_t)",
-    "location": {
-      "column": "40",
-      "line": "123",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "mbstowcs",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@mbtowc",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int mbtowc(wchar_t *restrict, const char *restrict, size_t)",
-    "location": {
-      "column": "40",
-      "line": "125",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "mbtowc",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@rand",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int rand(void)",
-    "location": {
-      "column": "36",
-      "line": "128",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "rand",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@srand",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void srand(unsigned int)",
-    "location": {
-      "column": "36",
-      "line": "129",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "srand",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@realloc",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * realloc(void *, size_t)",
-    "location": {
-      "column": "36",
-      "line": "130",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "realloc",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_realloc_in_place",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * __iar_realloc_in_place(void *, size_t)",
-    "location": {
-      "column": "36",
-      "line": "132",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "__iar_realloc_in_place",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strtol",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "long strtol(const char *restrict, char **restrict, int)",
-    "location": {
-      "column": "43",
-      "line": "134",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "strtol",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strtoul",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "unsigned long strtoul(const char *, char **, int)",
-    "location": {
-      "column": "43",
-      "line": "136",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "strtoul",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@wcstombs",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "size_t wcstombs(char *restrict, const wchar_t *restrict, size_t)",
-    "location": {
-      "column": "40",
-      "line": "138",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "wcstombs",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@wctomb",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int wctomb(char *, wchar_t)",
-    "location": {
-      "column": "40",
-      "line": "141",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "wctomb",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strtoll",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "long long strtoll(const char *, char **, int)",
-    "location": {
-      "column": "41",
-      "line": "144",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "strtoll",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strtoull",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "unsigned long long strtoull(const char *, char **, int)",
-    "location": {
-      "column": "50",
-      "line": "145",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "strtoull",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdlib.h@T@_Cmpfun",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "int (const void *, const void *)",
-    "location": {
-      "column": "15",
-      "line": "169",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "_Cmpfun",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@bsearch",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * bsearch(const void *, const void *, size_t, size_t, _Cmpfun *)",
-    "location": {
-      "column": "48",
-      "line": "170",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "bsearch",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@qsort",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void qsort(void *, size_t, size_t, _Cmpfun *)",
-    "location": {
-      "column": "48",
-      "line": "173",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "qsort",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__qsortbbl",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __qsortbbl(void *, size_t, size_t, _Cmpfun *)",
-    "location": {
-      "column": "48",
-      "line": "175",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "__qsortbbl",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@atof",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "double atof(const char *)",
-    "location": {
-      "column": "48",
-      "line": "177",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "atof",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@atoi",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int atoi(const char *)",
-    "location": {
-      "column": "48",
-      "line": "178",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "atoi",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@atol",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "long atol(const char *)",
-    "location": {
-      "column": "48",
-      "line": "179",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "atol",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@atoll",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "long long atoll(const char *)",
-    "location": {
-      "column": "46",
-      "line": "181",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "atoll",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strtof",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "float strtof(const char *restrict, char **restrict)",
-    "location": {
-      "column": "46",
-      "line": "182",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "strtof",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strtold",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "long double strtold(const char *, char **)",
-    "location": {
-      "column": "46",
-      "line": "184",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "strtold",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strtod",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "double strtod(const char *restrict, char **restrict)",
-    "location": {
-      "column": "46",
-      "line": "186",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "strtod",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_DLib_library_version",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int __iar_DLib_library_version(void)",
-    "location": {
-      "column": "46",
-      "line": "189",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "__iar_DLib_library_version",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@abs",
+    "ID": "c:@F@UART5_Handler",
     "What": "Function",
     "defdec": "Def",
-    "display": "int abs(int)",
+    "display": "void UART5_Handler(void)",
     "location": {
-      "column": "7",
-      "line": "196",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
+      "column": "6",
+      "line": "188",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
     },
-    "name": "abs",
-    "origin": "system_include",
+    "name": "UART5_Handler",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@labs",
+    "ID": "c:@F@relayControl",
     "What": "Function",
     "defdec": "Def",
-    "display": "long labs(long)",
+    "display": "void relayControl(char)",
     "location": {
-      "column": "8",
-      "line": "202",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
+      "column": "6",
+      "line": "195",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
     },
-    "name": "labs",
-    "origin": "system_include",
+    "name": "relayControl",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@llabs",
+    "ID": "c:@F@PortB_Init",
     "What": "Function",
     "defdec": "Def",
-    "display": "long long llabs(long long)",
+    "display": "void PortB_Init(void)",
     "location": {
-      "column": "15",
-      "line": "209",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
+      "column": "6",
+      "line": "228",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
     },
-    "name": "llabs",
-    "origin": "system_include",
+    "name": "PortB_Init",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:stdlib.h@11402@macro@IAR_TABLE_INIT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IAR_TABLE_INIT",
-    "location": {
-      "column": "9",
-      "line": "317",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
-    },
-    "name": "IAR_TABLE_INIT",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_table_init3",
+    "ID": "c:@F@GPIOB_Handler",
     "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_table_init3(const void *, const void *)",
+    "defdec": "Def",
+    "display": "void GPIOB_Handler(void)",
     "location": {
-      "column": "8",
-      "line": "319",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\stdlib.h"
+      "column": "6",
+      "line": "250",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
     },
-    "name": "__iar_table_init3",
-    "origin": "system_include",
+    "name": "GPIOB_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_GetTime_TEST",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t SysTick_GetTime_TEST(void)",
+    "location": {
+      "column": "10",
+      "line": "267",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
+    },
+    "name": "SysTick_GetTime_TEST",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Init_TEST",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SysTick_Init_TEST(void)",
+    "location": {
+      "column": "6",
+      "line": "272",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
+    },
+    "name": "SysTick_Init_TEST",
+    "origin": "project_file",
     "scope": null
   },
   {
@@ -108217,426 +108379,6 @@
     "scope": null
   },
   {
-    "ID": "c:@F@Delay",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Delay(unsigned long)",
-    "location": {
-      "column": "6",
-      "line": "105",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "Delay",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@HC05_init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void HC05_init(void)",
-    "location": {
-      "column": "6",
-      "line": "106",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "HC05_init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Bluetooth_Read",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char Bluetooth_Read(void)",
-    "location": {
-      "column": "6",
-      "line": "107",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "Bluetooth_Read",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Bluetooth_Write",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Bluetooth_Write(unsigned char)",
-    "location": {
-      "column": "6",
-      "line": "108",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "Bluetooth_Write",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Bluetooth_Write_String",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Bluetooth_Write_String(char *)",
-    "location": {
-      "column": "6",
-      "line": "109",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "Bluetooth_Write_String",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@toggleLED",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void toggleLED(char)",
-    "location": {
-      "column": "6",
-      "line": "110",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "toggleLED",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@received_char",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "received_char",
-    "location": {
-      "column": "15",
-      "line": "112",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "received_char",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@main",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int main(void)",
-    "location": {
-      "column": "5",
-      "line": "114",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@HC05_init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void HC05_init(void)",
-    "location": {
-      "column": "6",
-      "line": "128",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "HC05_init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART5_Handler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void UART5_Handler(void)",
-    "location": {
-      "column": "6",
-      "line": "154",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "UART5_Handler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@toggleLED",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void toggleLED(char)",
-    "location": {
-      "column": "6",
-      "line": "161",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "toggleLED",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Bluetooth_Read",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "char Bluetooth_Read(void)",
-    "location": {
-      "column": "6",
-      "line": "196",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "Bluetooth_Read",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@7509@F@Bluetooth_Read@data",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "data",
-    "location": {
-      "column": "10",
-      "line": "198",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "data",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Bluetooth_Write",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Bluetooth_Write(unsigned char)",
-    "location": {
-      "column": "6",
-      "line": "204",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "Bluetooth_Write",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Bluetooth_Write_String",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Bluetooth_Write_String(char *)",
-    "location": {
-      "column": "6",
-      "line": "210",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "Bluetooth_Write_String",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Delay",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Delay(unsigned long)",
-    "location": {
-      "column": "6",
-      "line": "218",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "Delay",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@8059@F@Delay@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "16",
-      "line": "220",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void UART1_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "283",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "UART1_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART2_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void UART2_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "303",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\main.c"
-    },
-    "name": "UART2_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product_stdlib.h@251@macro@_DLIB_PRODUCTS_STDLIB_H_",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRODUCTS_STDLIB_H_",
-    "location": {
-      "column": "9",
-      "line": "10",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product_stdlib.h"
-    },
-    "name": "_DLIB_PRODUCTS_STDLIB_H_",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@div",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "div_t div(int, int)",
-    "location": {
-      "column": "7",
-      "line": "29",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product_stdlib.h"
-    },
-    "name": "div",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product_stdlib.h@647@F@div@q",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "q",
-    "location": {
-      "column": "7",
-      "line": "32",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product_stdlib.h"
-    },
-    "name": "q",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product_stdlib.h@665@F@div@r",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "r",
-    "location": {
-      "column": "7",
-      "line": "33",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product_stdlib.h"
-    },
-    "name": "r",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product_stdlib.h@687@F@div@d",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "d",
-    "location": {
-      "column": "9",
-      "line": "34",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product_stdlib.h"
-    },
-    "name": "d",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ldiv",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "ldiv_t ldiv(long, long)",
-    "location": {
-      "column": "8",
-      "line": "45",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product_stdlib.h"
-    },
-    "name": "ldiv",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product_stdlib.h@1014@F@ldiv@q",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "q",
-    "location": {
-      "column": "7",
-      "line": "54",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product_stdlib.h"
-    },
-    "name": "q",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product_stdlib.h@1032@F@ldiv@r",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "r",
-    "location": {
-      "column": "7",
-      "line": "55",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product_stdlib.h"
-    },
-    "name": "r",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product_stdlib.h@1054@F@ldiv@ld",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "ld",
-    "location": {
-      "column": "10",
-      "line": "56",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product_stdlib.h"
-    },
-    "name": "ld",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__aeabi_ldivmod",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "lldiv_t __aeabi_ldivmod(long long, long long)",
-    "location": {
-      "column": "13",
-      "line": "83",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product_stdlib.h"
-    },
-    "name": "__aeabi_ldivmod",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@lldiv",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "lldiv_t lldiv(long long, long long)",
-    "location": {
-      "column": "13",
-      "line": "87",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\DLib_Product_stdlib.h"
-    },
-    "name": "lldiv",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:@F@ResetISR",
     "What": "Function",
     "defdec": "Dec",
@@ -108713,10 +108455,38 @@
     "display": "void UART5_Handler(void)",
     "location": {
       "column": "13",
-      "line": "48",
+      "line": "50",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\startup_ewarm.c"
     },
     "name": "UART5_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "51",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\startup_ewarm.c"
+    },
+    "name": "UART1_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIOB_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void GPIOB_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "52",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\startup_ewarm.c"
+    },
+    "name": "GPIOB_Handler",
     "origin": "project_file",
     "scope": null
   },
@@ -108727,7 +108497,7 @@
     "display": "void __iar_program_start(void)",
     "location": {
       "column": "13",
-      "line": "55",
+      "line": "59",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\startup_ewarm.c"
     },
     "name": "__iar_program_start",
@@ -108741,7 +108511,7 @@
     "display": "pui32Stack",
     "location": {
       "column": "17",
-      "line": "62",
+      "line": "66",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\startup_ewarm.c"
     },
     "name": "pui32Stack",
@@ -108755,7 +108525,7 @@
     "display": "",
     "location": {
       "column": "9",
-      "line": "71",
+      "line": "75",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\startup_ewarm.c"
     },
     "members": [
@@ -108766,12 +108536,12 @@
         "display": "pfnHandler",
         "location": {
           "column": "12",
-          "line": "73",
+          "line": "77",
           "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\startup_ewarm.c"
         },
         "name": "pfnHandler",
         "origin": "project_file",
-        "scope": "_anonymous_startup_ewarm_c_71_9"
+        "scope": "_anonymous_startup_ewarm_c_75_9"
       },
       {
         "ID": "c:@UA@uVectorEntry@FI@ui32Ptr",
@@ -108780,12 +108550,12 @@
         "display": "ui32Ptr",
         "location": {
           "column": "14",
-          "line": "74",
+          "line": "78",
           "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\startup_ewarm.c"
         },
         "name": "ui32Ptr",
         "origin": "project_file",
-        "scope": "_anonymous_startup_ewarm_c_71_9"
+        "scope": "_anonymous_startup_ewarm_c_75_9"
       }
     ],
     "name": "",
@@ -108799,7 +108569,7 @@
     "display": "union uVectorEntry",
     "location": {
       "column": "1",
-      "line": "76",
+      "line": "80",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\startup_ewarm.c"
     },
     "name": "uVectorEntry",
@@ -108813,7 +108583,7 @@
     "display": "__vector_table",
     "location": {
       "column": "27",
-      "line": "84",
+      "line": "88",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\startup_ewarm.c"
     },
     "name": "__vector_table",
@@ -108827,7 +108597,7 @@
     "display": "void ResetISR(void)",
     "location": {
       "column": "1",
-      "line": "255",
+      "line": "259",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\startup_ewarm.c"
     },
     "name": "ResetISR",
@@ -108841,7 +108611,7 @@
     "display": "void NmiSR(void)",
     "location": {
       "column": "1",
-      "line": "285",
+      "line": "289",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\startup_ewarm.c"
     },
     "name": "NmiSR",
@@ -108855,7 +108625,7 @@
     "display": "void FaultISR(void)",
     "location": {
       "column": "1",
-      "line": "303",
+      "line": "307",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\startup_ewarm.c"
     },
     "name": "FaultISR",
@@ -108869,95 +108639,11 @@
     "display": "void IntDefaultHandler(void)",
     "location": {
       "column": "1",
-      "line": "321",
+      "line": "325",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\startup_ewarm.c"
     },
     "name": "IntDefaultHandler",
     "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_YSIZET_H",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\ysizet.h"
-    },
-    "name": "_YSIZET_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@277@macro@_SIZE_T",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_SIZE_T",
-    "location": {
-      "column": "11",
-      "line": "16",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\ysizet.h"
-    },
-    "name": "_SIZE_T",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@296@macro@_STD_USING_SIZE_T",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STD_USING_SIZE_T",
-    "location": {
-      "column": "11",
-      "line": "17",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\ysizet.h"
-    },
-    "name": "_STD_USING_SIZE_T",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@T@size_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "_Sizet",
-    "location": {
-      "column": "18",
-      "line": "18",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\ysizet.h"
-    },
-    "name": "size_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@359@macro@__DATA_PTR_MEM_HELPER1__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DATA_PTR_MEM_HELPER1__",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\ysizet.h"
-    },
-    "name": "__DATA_PTR_MEM_HELPER1__",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@T@__data_size_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned int",
-    "location": {
-      "column": "1",
-      "line": "23",
-      "path": "D:\\Programs\\IAR Systems\\Embedded Workbench 9.2\\arm\\inc\\c\\ysizet.h"
-    },
-    "name": "__data_size_t",
-    "origin": "system_include",
     "scope": null
   },
   {

@@ -48,6 +48,8 @@ extern void SysTick_Handler(void);
 //extern void UART1_Handler(void);
 //extern void UART3_Handler(void);
 extern void UART5_Handler(void);
+extern void UART1_Handler(void);
+extern void GPIOB_Handler(void);
 
 //*****************************************************************************
 //
@@ -103,12 +105,12 @@ __root const uVectorEntry __vector_table[] @ ".intvec" =
     IntDefaultHandler,                      // The PendSV handler
     SysTick_Handler,			    // The SysTick handler
     IntDefaultHandler,                      // GPIO Port A
-    IntDefaultHandler,                      // GPIO Port B
+    GPIOB_Handler,                      // GPIO Port B
     IntDefaultHandler,                      // GPIO Port C
     IntDefaultHandler,                      // GPIO Port D
     IntDefaultHandler,                      // GPIO Port E
     IntDefaultHandler,                      // UART0 Rx and Tx
-    IntDefaultHandler,                      // UART1 Rx and Tx
+IntDefaultHandler,                      // UART1 Rx and Tx
     IntDefaultHandler,                      // SSI0 Rx and Tx
     IntDefaultHandler,                      // I2C0 Master and Slave
     IntDefaultHandler,                      // PWM Fault

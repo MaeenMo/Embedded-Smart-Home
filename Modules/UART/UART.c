@@ -14,6 +14,8 @@ void UART_Init(uint8_t uartNum, uint32_t baudRate) {
             SYSCTL_RCGCGPIO_R |= (1 << 1);  // Enable GPIOB clock
             while ((SYSCTL_PRUART_R & (1 << 1)) == 0);
             while ((SYSCTL_PRGPIO_R & (1 << 1)) == 0);
+            UART1_IM_R |= (1 << 4);   // Enable RX interrupt
+            NVIC_EN0_R |= (1 << 6);   // Enable IRQ6 for UART1 in NVIC
             break;
         case 3:
             uartBase = UART3_BASE;

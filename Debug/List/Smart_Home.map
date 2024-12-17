@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.50.1.380/W64 for ARM                  14/Dec/2024  02:43:35
+# IAR ELF Linker V9.50.1.380/W64 for ARM                  17/Dec/2024  19:31:55
 # Copyright 2007-2023 IAR Systems AB.
 #
 #    Output file  =
@@ -107,47 +107,50 @@ do not initialize { rw section .noinit };
   .intvec          const            0x0         4  0x26c  startup_ewarm.o [1]
                                 - 0x26c            0x26c
 
-"P1":                                              0x5b0
-  .text            ro code        0x26c         4  0x1ac  DIO.o [3]
-  .text            ro code        0x418         4  0x194  UART.o [9]
-  .text            ro code        0x5ac         4   0xac  main.o [1]
-  .text            ro code        0x658         4    0xe  DoorStatus.o [5]
-  .text            ro code        0x668         4    0xe  LM35.o [8]
-  .text            ro code        0x676         2   0x4a  Relay.o [6]
-  .text            ro code        0x6c0         2    0xe  Alarm.o [2]
+"P1":                                              0x75c
+  .text            ro code        0x26c         4  0x220  main.o [1]
+  .text            ro code        0x48c         2   0x4a  Relay.o [6]
+  .text            ro code        0x4d8         4  0x1dc  UART.o [9]
+  .text            ro code        0x6b4         4    0xe  LM35.o [8]
+  .text            ro code        0x6c2         2    0xe  Alarm.o [2]
   .text            ro code        0x6d0         4   0x18  DataLogging.o [4]
-  .text            ro code        0x6e8         2   0x38  zero_init3.o [12]
-  .text            ro code        0x720         4   0x2a  data_init.o [12]
-  .text            ro code        0x74c         4   0x22  fpinit_M.o [11]
-  .iar.init_table  const          0x770         4   0x10  - Linker created -
-  .text            ro code        0x780         4   0x1e  startup_ewarm.o [1]
-  .text            ro code        0x7a0         4   0x1c  cstartup_M.o [12]
-  .text            ro code        0x7bc         4   0x1e  cmain.o [12]
-  .text            ro code        0x7da         2    0x4  low_level_init.o [10]
-  .text            ro code        0x7de         2    0x4  exit.o [10]
-  .text            ro code        0x7e4         4    0xa  cexit.o [12]
-  .text            ro code        0x7f0         4   0x14  exit.o [13]
-  .text            ro code        0x804         4   0x18  Systick.o [7]
-  .rodata          const          0x81c              0x0  zero_init3.o [12]
-                                - 0x81c            0x5b0
+  .text            ro code        0x6e8         4  0x1ac  DIO.o [3]
+  .text            ro code        0x894         2   0x38  zero_init3.o [12]
+  .text            ro code        0x8cc         4   0x2a  data_init.o [12]
+  .text            ro code        0x8f8         4   0x22  fpinit_M.o [11]
+  .iar.init_table  const          0x91c         4   0x10  - Linker created -
+  .text            ro code        0x92c         4   0x1e  startup_ewarm.o [1]
+  .text            ro code        0x94c         4   0x1c  cstartup_M.o [12]
+  .text            ro code        0x968         4   0x1e  cmain.o [12]
+  .text            ro code        0x986         2    0x4  low_level_init.o [10]
+  .text            ro code        0x98a         2    0x4  exit.o [10]
+  .text            ro code        0x990         4    0xa  cexit.o [12]
+  .text            ro code        0x99c         4   0x14  exit.o [13]
+  .text            ro code        0x9b0         4   0x18  Systick.o [7]
+  .rodata          const          0x9c8              0x0  zero_init3.o [12]
+                                - 0x9c8            0x75c
 
-"P2", part 1 of 2:                                  0x10
+"P2", part 1 of 2:                                  0x14
   .bss             zero     0x2000'0000         4    0x4  DataLogging.o [4]
   .bss             zero     0x2000'0004         4    0x4  DataLogging.o [4]
   .bss             zero     0x2000'0008         4    0x4  Systick.o [7]
-  .bss             zero     0x2000'000c              0x1  main.o [1]
-                          - 0x2000'000d              0xd
+  .bss             zero     0x2000'000c         2    0x2  main.o [1]
+  .bss             zero     0x2000'000e         2    0x2  main.o [1]
+  .bss             zero     0x2000'0010         2    0x2  main.o [1]
+  .bss             zero     0x2000'0012              0x1  main.o [1]
+  .bss             zero     0x2000'0013              0x1  main.o [1]
+                          - 0x2000'0014             0x14
 
 "P2", part 2 of 2:                                 0x200
-  .noinit          uninit   0x2000'0010         4  0x200  startup_ewarm.o [1]
-                          - 0x2000'0210            0x200
+  .noinit          uninit   0x2000'0014         4  0x200  startup_ewarm.o [1]
+                          - 0x2000'0214            0x200
 
 Unused ranges:
 
          From           To      Size
          ----           --      ----
-        0x81c     0x3'ffff  0x3'f7e4
-  0x2000'0210  0x2000'7fff    0x7df0
+        0x9c8     0x3'ffff  0x3'f638
+  0x2000'0214  0x2000'7fff    0x7dec
 
 
 *******************************************************************************
@@ -157,8 +160,8 @@ Unused ranges:
           Address      Size
           -------      ----
 Zero (__iar_zero_init3)
-    1 destination range, total size 0xd:
-          0x2000'0000   0xd
+    1 destination range, total size 0x14:
+          0x2000'0000  0x14
 
 
 
@@ -173,10 +176,10 @@ command line/config:
     Total:
 
 D:\Maeen\UNI Documents\OneDrive - Faculty of Engineering Ain Shams University\Senior 1\Fall 24\Introduction to Embedded Systems\Project\IAR Smart Home\Debug\Obj: [1]
-    main.o                172                 1
+    main.o                544                 8
     startup_ewarm.o        30      620      512
     -------------------------------------------
-    Total:                202      620      513
+    Total:                574      620      520
 
 D:\Maeen\UNI Documents\OneDrive - Faculty of Engineering Ain Shams University\Senior 1\Fall 24\Introduction to Embedded Systems\Project\IAR Smart Home\Debug\Obj\Alarm_980185568058126024.dir: [2]
     Alarm.o                14
@@ -194,9 +197,8 @@ D:\Maeen\UNI Documents\OneDrive - Faculty of Engineering Ain Shams University\Se
     Total:                 24                 8
 
 D:\Maeen\UNI Documents\OneDrive - Faculty of Engineering Ain Shams University\Senior 1\Fall 24\Introduction to Embedded Systems\Project\IAR Smart Home\Debug\Obj\DoorStatus_9131125453417250063.dir: [5]
-    DoorStatus.o           14
     -------------------------------------------
-    Total:                 14
+    Total:
 
 D:\Maeen\UNI Documents\OneDrive - Faculty of Engineering Ain Shams University\Senior 1\Fall 24\Introduction to Embedded Systems\Project\IAR Smart Home\Debug\Obj\Relay_7192306582697933232.dir: [6]
     Relay.o                74
@@ -214,9 +216,9 @@ D:\Maeen\UNI Documents\OneDrive - Faculty of Engineering Ain Shams University\Se
     Total:                 14
 
 D:\Maeen\UNI Documents\OneDrive - Faculty of Engineering Ain Shams University\Senior 1\Fall 24\Introduction to Embedded Systems\Project\IAR Smart Home\Debug\Obj\UART_13659031282731861102.dir: [9]
-    UART.o                404
+    UART.o                476
     -------------------------------------------
-    Total:                404
+    Total:                476
 
 dl7M_tln.a: [10]
     exit.o                  4
@@ -243,10 +245,10 @@ shb_l.a: [13]
     -------------------------------------------
     Total:                 20
 
-    Gaps                   12        2
+    Gaps                   10        2
     Linker created                  16
 -----------------------------------------------
-    Grand Total:        1'438      638      525
+    Grand Total:        1'866      638      532
 
 
 *******************************************************************************
@@ -255,45 +257,53 @@ shb_l.a: [13]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base         0x770          --   Gb  - Linker created -
-.iar.init_table$$Limit        0x780          --   Gb  - Linker created -
-?main                         0x7bd         Code  ??  cmain.o [12]
-Alarm_init                    0x6c1    0xe  Code  ??  Alarm.o [2]
+.iar.init_table$$Base         0x91c          --   Gb  - Linker created -
+.iar.init_table$$Limit        0x92c          --   Gb  - Linker created -
+?main                         0x969         Code  ??  cmain.o [12]
+Alarm_init                    0x6c3    0xe  Code  ??  Alarm.o [2]
 DoorLogging_init              0x6d1    0xe  Code  ??  DataLogging.o [4]
-DoorStatus_init               0x659    0xe  Code  ??  DoorStatus.o [5]
-FaultISR                      0x79b    0x2  Code  Lc  startup_ewarm.o [1]
-IntDefaultHandler             0x79d    0x2  Code  Lc  startup_ewarm.o [1]
-LM35_init                     0x669    0xe  Code  ??  LM35.o [8]
-NmiSR                         0x799    0x2  Code  Lc  startup_ewarm.o [1]
-Region$$Table$$Base           0x770          --   ??  - Linker created -
-Region$$Table$$Limit          0x780          --   ??  - Linker created -
-Relay_Control                 0x699   0x28  Code  ??  Relay.o [6]
-Relay_Init                    0x677   0x22  Code  ??  Relay.o [6]
-ResetISR                      0x781   0x12  Code  ??  startup_ewarm.o [1]
+FaultISR                      0x947    0x2  Code  Lc  startup_ewarm.o [1]
+GPIOB_Handler                 0x3a3   0x68  Code  ??  main.o [1]
+IntDefaultHandler             0x949    0x2  Code  Lc  startup_ewarm.o [1]
+LM35_init                     0x6b5    0xe  Code  ??  LM35.o [8]
+NmiSR                         0x945    0x2  Code  Lc  startup_ewarm.o [1]
+PortB_Init                    0x33f   0x64  Code  ??  main.o [1]
+Region$$Table$$Base           0x91c          --   ??  - Linker created -
+Region$$Table$$Limit          0x92c          --   ??  - Linker created -
+Relay_Control                 0x4af   0x28  Code  ??  Relay.o [6]
+Relay_Init                    0x48d   0x22  Code  ??  Relay.o [6]
+ResetISR                      0x92d   0x12  Code  ??  startup_ewarm.o [1]
 SysTick_Callback        0x2000'0008    0x4  Data  Lc  Systick.o [7]
-SysTick_Handler               0x805   0x10  Code  ??  Systick.o [7]
-UART5_Handler                 0x5d7   0x22  Code  ??  main.o [1]
-UART_Init                     0x419  0x160  Code  ??  UART.o [9]
-__cmain                       0x7bd         Code  ??  cmain.o [12]
-__exit                        0x7f1   0x14  Code  ??  exit.o [13]
-__iar_data_init3              0x721   0x18  Code  ??  data_init.o [12]
-__iar_init_vfp                0x74d         Code  ??  fpinit_M.o [11]
-__iar_program_start           0x7a1         Code  ??  cstartup_M.o [12]
-__iar_zero_init3              0x6e9   0x38  Code  ??  zero_init3.o [12]
-__low_level_init              0x7db    0x4  Code  ??  low_level_init.o [10]
+SysTick_Handler               0x9b1   0x10  Code  ??  Systick.o [7]
+SysTick_Init_TEST             0x40b   0x1a  Code  ??  main.o [1]
+SysTick_Wait                  0x26d   0x10  Code  ??  main.o [1]
+UART5_Handler                 0x2cd   0x22  Code  ??  main.o [1]
+UART_Init                     0x4d9  0x174  Code  ??  UART.o [9]
+UART_Transmit                 0x64d   0x2c  Code  ??  UART.o [9]
+__cmain                       0x969         Code  ??  cmain.o [12]
+__exit                        0x99d   0x14  Code  ??  exit.o [13]
+__iar_data_init3              0x8cd   0x18  Code  ??  data_init.o [12]
+__iar_init_vfp                0x8f9         Code  ??  fpinit_M.o [11]
+__iar_program_start           0x94d         Code  ??  cstartup_M.o [12]
+__iar_zero_init3              0x895   0x38  Code  ??  zero_init3.o [12]
+__low_level_init              0x987    0x4  Code  ??  low_level_init.o [10]
 __vector_table                  0x0  0x26c  Data  ??  startup_ewarm.o [1]
-_call_main                    0x7c9         Code  ??  cmain.o [12]
-_exit                         0x7e5         Code  ??  cexit.o [12]
-ctz                           0x26d   0x18  Code  ??  DIO.o [3]
-dio_init                      0x285   0xd6  Code  ??  DIO.o [3]
-dio_writepin                  0x35b   0x9e  Code  ??  DIO.o [3]
+_call_main                    0x975         Code  ??  cmain.o [12]
+_exit                         0x991         Code  ??  cexit.o [12]
+ctz                           0x6e9   0x18  Code  ??  DIO.o [3]
+dio_init                      0x701   0xd6  Code  ??  DIO.o [3]
+dio_writepin                  0x7d7   0x9e  Code  ??  DIO.o [3]
 doorCloseLog            0x2000'0004    0x4  Data  Lc  DataLogging.o [4]
 doorOpenLog             0x2000'0000    0x4  Data  Lc  DataLogging.o [4]
-exit                          0x7df    0x4  Code  ??  exit.o [10]
-main                          0x5ad   0x2a  Code  ??  main.o [1]
-pui32Stack              0x2000'0010  0x200  Data  Lc  startup_ewarm.o [1]
-received_char           0x2000'000c    0x1  Data  ??  main.o [1]
-relayControl                  0x609   0x50  Code  ??  main.o [1]
+doorStatus              0x2000'0013    0x1  Data  ??  main.o [1]
+exit                          0x98b    0x4  Code  ??  exit.o [10]
+hamada                  0x2000'000c    0x2  Data  ??  main.o [1]
+hamada1                 0x2000'000e    0x2  Data  ??  main.o [1]
+hamada2                 0x2000'0010    0x2  Data  ??  main.o [1]
+main                          0x27d   0x50  Code  ??  main.o [1]
+pui32Stack              0x2000'0014  0x200  Data  Lc  startup_ewarm.o [1]
+received_char           0x2000'0012    0x1  Data  ??  main.o [1]
+relayControl                  0x2ef   0x50  Code  ??  main.o [1]
 
 
 [1] = D:\Maeen\UNI Documents\OneDrive - Faculty of Engineering Ain Shams University\Senior 1\Fall 24\Introduction to Embedded Systems\Project\IAR Smart Home\Debug\Obj
@@ -310,9 +320,9 @@ relayControl                  0x609   0x50  Code  ??  main.o [1]
 [12] = rt7M_tl.a
 [13] = shb_l.a
 
-  1'438 bytes of readonly  code memory
+  1'866 bytes of readonly  code memory
     638 bytes of readonly  data memory
-    525 bytes of readwrite data memory
+    532 bytes of readwrite data memory
 
 Errors: none
 Warnings: none
