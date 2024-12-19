@@ -15,7 +15,7 @@ void UART_Init(uint8_t uartNum, uint32_t baudRate) {
             while ((SYSCTL_PRUART_R & (1 << 1)) == 0);
             while ((SYSCTL_PRGPIO_R & (1 << 1)) == 0);
             UART1_IM_R |= (1 << 4);   // Enable RX interrupt
-            NVIC_EN0_R |= (1 << 6);   // Enable IRQ6 for UART1 in NVIC
+
             break;
         case 3:
             uartBase = UART3_BASE;
@@ -68,6 +68,25 @@ void UART_Transmit(uint8_t uartNum, char data) {
     }
     while ((UART_FR_R(uartBase) & (1 << 5)) != 0); // Wait for TX buffer to be empty
     UART_DR_R(uartBase) = data;
+}
+
+// Transmit a string
+void UART_Transmit_String(uint8_t uartNum, const char *str) {
+    while (*str != '\0') {          // Loop until the end of the string (null terminator)
+        UART_Transmit(uartNum, *str++); // Transmit each character
+    }
+}
+
+// Transmit a character
+void UART_Transmit_Temperature(uint8_t uartNum, uint8_t data) {
+    uint8_t num_size = snprintf(0, 0, "%d", data) + 1;
+    char* str = (char *)malloc(num_size);
+    // Convert the number to a string
+    sprintf(str, "%d", data);
+    for (uint8_t i = 0; str[i] != '\0'; i++) {
+        UART_Transmit(uartNum, str[i]);
+    }
+    free(str);
 }
 
 // Receive a character

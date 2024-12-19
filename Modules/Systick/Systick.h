@@ -13,6 +13,7 @@ void SysTick_PeriodSet(uint32_t ui32Period);
 uint32_t SysTick_PeriodGet(void);
 uint32_t SysTick_ValueGet(void);
 bool SysTick_Is_Time_Out(void);
+void SysTick_Wait(void);
 
 // Function prototypes for interrupt mode
 void SysTick_InitInterrupt(uint32_t reloadValue, void (*callback)(void));

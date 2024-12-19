@@ -50,6 +50,11 @@ bool SysTick_Is_Time_Out(void) {
     return (NVIC_ST_CTRL_R & 0x10000) != 0; // Check COUNT flag
 }
 
+void SysTick_Wait(void) {
+    while (!SysTick_Is_Time_Out()); // Wait for COUNT flag
+    NVIC_ST_CURRENT_R = 0;                  // Clear the flag by writing to CURRENT
+}
+
 // SysTick Interrupt Handler
 void SysTick_Handler(void) {
     if (SysTick_Callback != 0) {

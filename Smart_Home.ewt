@@ -2929,15 +2929,6 @@
             </file>
         </group>
         <group>
-            <name>DataLogging</name>
-            <file>
-                <name>$PROJ_DIR$\Modules\DataLogging\DataLogging.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\Modules\DataLogging\DataLogging.h</name>
-            </file>
-        </group>
-        <group>
             <name>DIO</name>
             <file>
                 <name>$PROJ_DIR$\Modules\DIO\DIO.c</name>
