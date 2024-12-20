@@ -13,6 +13,7 @@ void relayControl(char c);
 void PortB_Init(void);
 void PortD_Init(void);
 void tempEN(char c);
+void doorStat(char c);
 
 int main(void) {
     // Initialize modules
@@ -36,8 +37,12 @@ int main(void) {
 void UART5_Handler(void) {
     while (!(UART5_FR_R & (1 << 4))) {  // While RX buffer is not empty
         received_char = (char)(UART5_DR_R & 0xFF); // Read the character
+        if (received_char == '0') {
+            break;
+        }
         relayControl(received_char);
         tempEN(received_char);
+        doorStat(received_char);
     }
     UART5_ICR_R = (1 << 4); // Clear RX interrupt flag
 }
@@ -59,6 +64,15 @@ void tempEN(char c){
         GPIO_PORTD_DATA_R |= (1 << 0);
     } else if (received_char == 't') {
         GPIO_PORTD_DATA_R &= ~(1 << 0);
+    }
+}
+
+void doorStat(char c){
+    if (received_char == 'D') {
+        if ((GPIO_PORTB_DATA_R & (1 << 0)) == 0)
+            UART_Transmit(5,'D');
+        else if ((GPIO_PORTB_DATA_R & (1 << 0)) == 1)
+            UART_Transmit(5,'d');
     }
 }
 
