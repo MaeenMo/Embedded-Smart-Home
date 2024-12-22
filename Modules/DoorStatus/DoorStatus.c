@@ -1,17 +1,48 @@
 #include "DoorStatus.h"
-#include "../UART/UART.h"
-#include "DoorStatus.h"
 
-static bool doorStatus = false;
+volatile bool doorStatus = false;  // Tracks door status: true = open, false = closed
 
 // Initialize door status module
-void DoorStatus_init(void) {
-    UART_Init(1, 9600); // UART1 for door sensor
+void DoorStatus_init(char port, uint8_t pins) {
+    dio_init(port, pins, Input);
+    GPIO_PORTB_PUR_R &= ~pins;
+    GPIO_PORTB_PDR_R |= pins;  // Enable pull-down resistor
+
+    // 3. Configure for edge-triggered interrupts
+    GPIO_PORTB_IS_R &= ~pins;   // make pin edge-sensitive
+    GPIO_PORTB_IBE_R |= pins;   // Interrupt on both rising and falling edges
+
+    // 4. Clear any prior interrupts and enable interrupt
+    GPIO_PORTB_ICR_R |= pins;   // Clear any prior interrupt
+    GPIO_PORTB_IM_R |= pins;    // Enable interrupt
+
+    // 5. Configure NVIC to handle Port interrupts
+    NVIC_EN0_R |= (1 << 1);
 }
 
-// Get door status (open/closed)
-bool getDoorStatus(void) {
-    char status = UART_Receive(1); // Receive status from door sensor
-    doorStatus = (status == '0');  // '0' means door open, '1' means door closed
-    return doorStatus;
+// ISR => For Door Sensor at Port B, Pin 0
+void Door_Handler(void) {
+    if (GPIO_PORTB_RIS_R & (1 << 0)) {  // Check if PB0 caused the interrupt
+        // Check the current state of PB0
+        if (((GPIO_PORTB_DATA_R & (1 << 0)) == 0) && !doorStatus) {  // Door open (PB0 LOW)
+            doorStatus = true;
+            UART_Transmit(5,'O');  // Send 'O' for Door Open
+        }
+        else if (((GPIO_PORTB_DATA_R & (1 << 0)) == 1) && doorStatus) {  // Door closed (PB0 HIGH)
+            doorStatus = false;
+            UART_Transmit(5,'C');  // Send 'C' for Door Closed
+        }
+    }
+    SysTick_Init(5 * (16000 - 1));
+    SysTick_Wait();  // Wait for 3 ms for debounce
+    GPIO_PORTB_ICR_R |= (1 << 0);  // Clear interrupt flag for PB0
+}
+
+void setCurrentDoorStatus(char c){
+    if (c == 'D') {
+        if ((GPIO_PORTB_DATA_R & (1 << 0)) == 0)
+            UART_Transmit(5,'D');
+        else if ((GPIO_PORTB_DATA_R & (1 << 0)) == 1)
+            UART_Transmit(5,'d');
+    }
 }

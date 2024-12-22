@@ -1,5 +1,7 @@
 #include "UART.h"
 
+volatile char received_char = 0;
+
 // Initialize UART
 void UART_Init(uint8_t uartNum, uint32_t baudRate) {
     uint32_t uartBase, gpioBase, rxPin, txPin;
@@ -10,12 +12,11 @@ void UART_Init(uint8_t uartNum, uint32_t baudRate) {
             gpioBase = GPIO_PORTB_BASE;
             rxPin = Pin0;
             txPin = Pin1;
-            SYSCTL_RCGCUART_R |= (1 << 1);  // Enable UART1 clock
-            SYSCTL_RCGCGPIO_R |= (1 << 1);  // Enable GPIOB clock
+            SYSCTL_RCGCUART_R |= (1 << 1);              // Enable UART1 clock
+            SYSCTL_RCGCGPIO_R |= (1 << 1);              // Enable GPIOB clock
             while ((SYSCTL_PRUART_R & (1 << 1)) == 0);
             while ((SYSCTL_PRGPIO_R & (1 << 1)) == 0);
-            UART1_IM_R |= (1 << 4);   // Enable RX interrupt
-
+            UART1_IM_R |= (1 << 4);                     // Enable RX interrupt
             break;
         case 3:
             uartBase = UART3_BASE;
@@ -36,8 +37,8 @@ void UART_Init(uint8_t uartNum, uint32_t baudRate) {
             SYSCTL_RCGCGPIO_R |= (1 << 4);  // Enable GPIOE clock
             while ((SYSCTL_PRUART_R & (1 << 5)) == 0);
             while ((SYSCTL_PRGPIO_R & (1 << 4)) == 0);
-            UART5_IM_R |= (1 << 4);   // Enable RX interrupt
-            NVIC_EN1_R |= (1 << 29);   // Enable IRQ29 for UART5 in NVIC
+            UART5_IM_R |= (1 << 4);     // Enable RX interrupt
+            NVIC_EN1_R |= (1 << 29);    // Enable IRQ29 for UART5 in NVIC
             break;
         default:
             return; // Invalid UART number
@@ -72,7 +73,7 @@ void UART_Transmit(uint8_t uartNum, char data) {
 
 // Transmit a string
 void UART_Transmit_String(uint8_t uartNum, const char *str) {
-    while (*str != '\0') {          // Loop until the end of the string (null terminator)
+    while (*str != '\0') {              // Loop until the end of the string (null terminator)
         UART_Transmit(uartNum, *str++); // Transmit each character
     }
 }
@@ -100,4 +101,18 @@ char UART_Receive(uint8_t uartNum) {
     }
     while ((UART_FR_R(uartBase) & (1 << 4)) != 0); // Wait for RX buffer to have data
     return (char)(UART_DR_R(uartBase) & 0xFF);
+}
+
+// Interrupt Service Routine for UART5
+void UART5_Handler(void) {
+    while (!(UART5_FR_R & (1 << 4))) {  // While RX buffer is not empty
+        received_char = (char)(UART5_DR_R & 0xFF); // Read the character
+        if (received_char == '0') {
+            break;
+        }
+        Relay_Control('E', Pin1, Pin2, received_char);
+        tempEN(received_char);
+        setCurrentDoorStatus(received_char);
+    }
+    UART5_ICR_R = (1 << 4); // Clear RX interrupt flag
 }

@@ -45,12 +45,9 @@ static void FaultISR(void);
 static void IntDefaultHandler(void);
 extern void SysTick_Handler(void);
 
-//extern void UART1_Handler(void);
-//extern void UART3_Handler(void);
 extern void UART5_Handler(void);
-extern void UART1_Handler(void);
-extern void GPIOB_Handler(void);
-extern void GPIOD_Handler(void);
+extern void Door_Handler(void);
+extern void Read_Temperature_Handler(void);
 
 //*****************************************************************************
 //
@@ -104,11 +101,11 @@ __root const uVectorEntry __vector_table[] @ ".intvec" =
     IntDefaultHandler,                      // Debug monitor handler
     0,                                      // Reserved
     IntDefaultHandler,                      // The PendSV handler
-    SysTick_Handler,			    // The SysTick handler
+    SysTick_Handler,			            // The SysTick handler
     IntDefaultHandler,                      // GPIO Port A
-    GPIOB_Handler,                          // GPIO Port B
+    Door_Handler,                           // GPIO Port B
     IntDefaultHandler,                      // GPIO Port C
-    GPIOD_Handler,                          // GPIO Port D
+    Read_Temperature_Handler,               // GPIO Port D
     IntDefaultHandler,                      // GPIO Port E
     IntDefaultHandler,                      // UART0 Rx and Tx
     IntDefaultHandler,                      // UART1 Rx and Tx
@@ -138,7 +135,7 @@ __root const uVectorEntry __vector_table[] @ ".intvec" =
     IntDefaultHandler,                      // GPIO Port F
     IntDefaultHandler,                      // GPIO Port G
     IntDefaultHandler,                      // GPIO Port H
-    IntDefaultHandler ,                      // UART2 Rx and Tx
+    IntDefaultHandler ,                     // UART2 Rx and Tx
     IntDefaultHandler,                      // SSI1 Rx and Tx
     IntDefaultHandler,                      // Timer 3 subtimer A
     IntDefaultHandler,                      // Timer 3 subtimer B
@@ -166,7 +163,7 @@ __root const uVectorEntry __vector_table[] @ ".intvec" =
     IntDefaultHandler,                      // SSI3 Rx and Tx
     IntDefaultHandler,                      // UART3 Rx and Tx
     IntDefaultHandler,                      // UART4 Rx and Tx
-    UART5_Handler,                      // UART5 Rx and Tx
+    UART5_Handler,                          // UART5 Rx and Tx
     IntDefaultHandler,                      // UART6 Rx and Tx
     IntDefaultHandler,                      // UART7 Rx and Tx
     0,                                      // Reserved
