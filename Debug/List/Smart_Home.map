@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.50.1.380/W64 for ARM                  22/Dec/2024  01:32:14
+# IAR ELF Linker V9.50.1.380/W64 for ARM                  22/Dec/2024  04:31:51
 # Copyright 2007-2023 IAR Systems AB.
 #
 #    Output file  =
@@ -104,7 +104,7 @@ do not initialize { rw section .noinit };
   .intvec          const            0x0         4   0x26c  startup_ewarm.o [1]
                                 - 0x26c             0x26c
 
-"P1":                                              0x2792
+"P1":                                              0x27c6
   .text            ro code        0x26c         4   0xea6  xprintffull_nomb.o [9]
   .text            ro code       0x1112         2    0x1a  xsnprout.o [9]
   .text            ro code       0x112c         4    0x16  strchr.o [11]
@@ -136,23 +136,23 @@ do not initialize { rw section .noinit };
   .text            ro code       0x2434         2     0x4  heaptramp0.o [9]
   .text            ro code       0x2438         2    0x8c  Relay.o [5]
   .text            ro code       0x24c4         4   0x210  LM35.o [7]
-  .text            ro code       0x26d4         4   0x110  DoorStatus.o [4]
-  .text            ro code       0x27e4         4    0x2c  xgetmemchunk.o [9]
-  .text            ro code       0x2810         4    0x54  Systick.o [6]
-  .text            ro code       0x2864         4    0x5c  Alarm.o [2]
-  .text            ro code       0x28c0         2    0x38  zero_init3.o [11]
-  .text            ro code       0x28f8         4    0x36  main.o [1]
-  .text            ro code       0x2930         4    0x2a  data_init.o [11]
-  .text            ro code       0x295c         4    0x22  fpinit_M.o [10]
-  .iar.init_table  const         0x2980         4    0x10  - Linker created -
-  .text            ro code       0x2990         4    0x1e  startup_ewarm.o [1]
-  .text            ro code       0x29b0         4    0x1c  cstartup_M.o [11]
-  .text            ro code       0x29cc         4    0x1e  cmain.o [11]
-  .text            ro code       0x29ea         2     0x4  low_level_init.o [9]
-  .text            ro code       0x29ee         2     0x4  exit.o [9]
-  .text            ro code       0x29f4         4     0xa  cexit.o [11]
-  .rodata          const         0x29fe               0x0  zero_init3.o [11]
-                               - 0x29fe            0x2792
+  .text            ro code       0x26d4         4   0x144  DoorStatus.o [4]
+  .text            ro code       0x2818         4    0x2c  xgetmemchunk.o [9]
+  .text            ro code       0x2844         4    0x54  Systick.o [6]
+  .text            ro code       0x2898         4    0x5c  Alarm.o [2]
+  .text            ro code       0x28f4         2    0x38  zero_init3.o [11]
+  .text            ro code       0x292c         4    0x36  main.o [1]
+  .text            ro code       0x2964         4    0x2a  data_init.o [11]
+  .text            ro code       0x2990         4    0x22  fpinit_M.o [10]
+  .iar.init_table  const         0x29b4         4    0x10  - Linker created -
+  .text            ro code       0x29c4         4    0x1e  startup_ewarm.o [1]
+  .text            ro code       0x29e4         4    0x1c  cstartup_M.o [11]
+  .text            ro code       0x2a00         4    0x1e  cmain.o [11]
+  .text            ro code       0x2a1e         2     0x4  low_level_init.o [9]
+  .text            ro code       0x2a22         2     0x4  exit.o [9]
+  .text            ro code       0x2a28         4     0xa  cexit.o [11]
+  .rodata          const         0x2a32               0x0  zero_init3.o [11]
+                               - 0x2a32            0x27c6
 
 "P2", part 1 of 2:                                   0x18
   .bss             zero     0x2000'0000         4     0x8  heap0.o [9]
@@ -173,7 +173,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-       0x29fe     0x3'ffff  0x3'd602
+       0x2a32     0x3'ffff  0x3'd5ce
   0x2000'2218  0x2000'7fff    0x5de8
 
 
@@ -216,9 +216,9 @@ D:\Maeen\UNI Documents\OneDrive - Faculty of Engineering Ain Shams University\Se
     Total:                     560
 
 D:\Maeen\UNI Documents\OneDrive - Faculty of Engineering Ain Shams University\Senior 1\Fall 24\Introduction to Embedded Systems\Project\IAR Smart Home\Debug\Obj\DoorStatus_9131125453417250063.dir: [4]
-    DoorStatus.o               272                 1
+    DoorStatus.o               324                 1
     ------------------------------------------------
-    Total:                     272                 1
+    Total:                     324                 1
 
 D:\Maeen\UNI Documents\OneDrive - Faculty of Engineering Ain Shams University\Senior 1\Fall 24\Introduction to Embedded Systems\Project\IAR Smart Home\Debug\Obj\Relay_7192306582697933232.dir: [5]
     Relay.o                    140
@@ -295,7 +295,7 @@ shb_l.a: [12]
     Gaps                        30        2
     Linker created                       16    8'192
 ----------------------------------------------------
-    Grand Total:            10'112      638    8'726
+    Grand Total:            10'164      638    8'726
 
 
 *******************************************************************************
@@ -304,33 +304,33 @@ shb_l.a: [12]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base        0x2980          --   Gb  - Linker created -
-.iar.init_table$$Limit       0x2990          --   Gb  - Linker created -
-?main                        0x29cd         Code  ??  cmain.o [11]
-Alarm_init                   0x2865    0xe  Code  ??  Alarm.o [2]
+.iar.init_table$$Base        0x29b4          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x29c4          --   Gb  - Linker created -
+?main                        0x2a01         Code  ??  cmain.o [11]
+Alarm_init                   0x2899    0xe  Code  ??  Alarm.o [2]
 Aldata                  0x2000'0000    0x8  Data  Lc  heap0.o [9]
-DoorStatus_init              0x26d5   0x62  Code  ??  DoorStatus.o [4]
-Door_Handler                 0x2737   0x58  Code  ??  DoorStatus.o [4]
-FaultISR                     0x29ab    0x2  Code  Lc  startup_ewarm.o [1]
+DoorStatus_init              0x26d5   0x6e  Code  ??  DoorStatus.o [4]
+Door_Handler                 0x2743   0x5e  Code  ??  DoorStatus.o [4]
+FaultISR                     0x29df    0x2  Code  Lc  startup_ewarm.o [1]
 GetTemp                      0x2553   0x28  Code  ??  LM35.o [7]
 HEAP$$Base              0x2000'0218          --   ??  - Linker created -
 HEAP$$Limit             0x2000'2218          --   ??  - Linker created -
-IntDefaultHandler            0x29ad    0x2  Code  Lc  startup_ewarm.o [1]
+IntDefaultHandler            0x29e1    0x2  Code  Lc  startup_ewarm.o [1]
 LM35_init                    0x24c5   0x8e  Code  ??  LM35.o [7]
-NmiSR                        0x29a9    0x2  Code  Lc  startup_ewarm.o [1]
+NmiSR                        0x29dd    0x2  Code  Lc  startup_ewarm.o [1]
 Read_Temperature_Handler
                              0x25e9   0x4e  Code  ??  LM35.o [7]
-Region$$Table$$Base          0x2980          --   ??  - Linker created -
-Region$$Table$$Limit         0x2990          --   ??  - Linker created -
+Region$$Table$$Base          0x29b4          --   ??  - Linker created -
+Region$$Table$$Limit         0x29c4          --   ??  - Linker created -
 Relay_Control                0x246f   0x56  Code  ??  Relay.o [5]
 Relay_Init                   0x2439   0x36  Code  ??  Relay.o [5]
-ResetISR                     0x2991   0x12  Code  ??  startup_ewarm.o [1]
+ResetISR                     0x29c5   0x12  Code  ??  startup_ewarm.o [1]
 SysTick_Callback        0x2000'0008    0x4  Data  Lc  Systick.o [6]
-SysTick_Handler              0x2845   0x10  Code  ??  Systick.o [6]
-SysTick_Init                 0x2811   0x16  Code  ??  Systick.o [6]
-SysTick_Is_Time_Out          0x2827    0xc  Code  ??  Systick.o [6]
-SysTick_Wait                 0x2833   0x12  Code  ??  Systick.o [6]
-Toggle_alarm                 0x2873   0x4a  Code  ??  Alarm.o [2]
+SysTick_Handler              0x2879   0x10  Code  ??  Systick.o [6]
+SysTick_Init                 0x2845   0x16  Code  ??  Systick.o [6]
+SysTick_Is_Time_Out          0x285b    0xc  Code  ??  Systick.o [6]
+SysTick_Wait                 0x2867   0x12  Code  ??  Systick.o [6]
+Toggle_alarm                 0x28a7   0x4a  Code  ??  Alarm.o [2]
 UART5_Handler                0x1fc1   0x3a  Code  ??  UART.o [8]
 UART_Init                    0x1dd9  0x16a  Code  ??  UART.o [8]
 UART_Transmit                0x1f43   0x2c  Code  ??  UART.o [8]
@@ -357,20 +357,20 @@ __basic_free                 0x2365   0x16  Code  ??  heap0.o [9]
 __basic_free_intern          0x237b   0x74  Code  Lc  heap0.o [9]
 __basic_malloc               0x22b9   0x18  Code  ??  heap0.o [9]
 __basic_malloc_intern        0x22d1   0x94  Code  Lc  heap0.o [9]
-__cmain                      0x29cd         Code  ??  cmain.o [11]
-__data_GetMemChunk           0x27e5   0x2c  Code  ??  xgetmemchunk.o [9]
+__cmain                      0x2a01         Code  ??  cmain.o [11]
+__data_GetMemChunk           0x2819   0x2c  Code  ??  xgetmemchunk.o [9]
 __data_GetMemChunk::start
                         0x2000'000c    0x4  Data  Lc  xgetmemchunk.o [9]
 __exit                       0x1dc5   0x14  Code  ??  exit.o [12]
 __iar_Fail_s                 0x114d   0x1c  Code  ??  xfail_s.o [9]
 __iar_Memchr                 0x11c5         Code  ??  memchr.o [11]
 __iar_Strchr                 0x112d         Code  ??  strchr.o [11]
-__iar_data_init3             0x2931   0x18  Code  ??  data_init.o [11]
+__iar_data_init3             0x2965   0x18  Code  ??  data_init.o [11]
 __iar_frexp                  0x12a1         Code  ??  frexp.o [10]
 __iar_frexpl                 0x12a1         Code  ??  frexp.o [10]
-__iar_init_vfp               0x295d         Code  ??  fpinit_M.o [10]
+__iar_init_vfp               0x2991         Code  ??  fpinit_M.o [10]
 __iar_ldexp64                0x136d         Code  ??  ldexp.o [10]
-__iar_program_start          0x29b1         Code  ??  cstartup_M.o [11]
+__iar_program_start          0x29e5         Code  ??  cstartup_M.o [11]
 __iar_scalbln64              0x136d         Code  ??  ldexp.o [10]
 __iar_scalbn64               0x136d         Code  ??  ldexp.o [10]
 __iar_softfp___iar_frexp64
@@ -382,11 +382,11 @@ __iar_unaligned_memcpy4
                              0x123d         Code  ??  ABImemcpy_unaligned.o [11]
 __iar_unaligned_memcpy8
                              0x123d         Code  ??  ABImemcpy_unaligned.o [11]
-__iar_zero_init3             0x28c1   0x38  Code  ??  zero_init3.o [11]
-__low_level_init             0x29eb    0x4  Code  ??  low_level_init.o [9]
+__iar_zero_init3             0x28f5   0x38  Code  ??  zero_init3.o [11]
+__low_level_init             0x2a1f    0x4  Code  ??  low_level_init.o [9]
 __vector_table                  0x0  0x26c  Data  ??  startup_ewarm.o [1]
-_call_main                   0x29d9         Code  ??  cmain.o [11]
-_exit                        0x29f5         Code  ??  cexit.o [11]
+_call_main                   0x2a0d         Code  ??  cmain.o [11]
+_exit                        0x2a29         Code  ??  cexit.o [11]
 abort                        0x1db9    0x6  Code  ??  abort.o [9]
 ctz                          0x2045   0x18  Code  ??  DIO.o [3]
 dio_init                     0x205d   0xd6  Code  ??  DIO.o [3]
@@ -394,11 +394,11 @@ dio_readport                 0x2133   0x42  Code  ??  DIO.o [3]
 dio_writepin                 0x2175   0x9e  Code  ??  DIO.o [3]
 dio_writeport                0x2213   0x40  Code  ??  DIO.o [3]
 doorStatus              0x2000'0014    0x1  Data  ??  DoorStatus.o [4]
-exit                         0x29ef    0x4  Code  ??  exit.o [9]
+exit                         0x2a23    0x4  Code  ??  exit.o [9]
 free                         0x2435    0x4  Code  ??  heaptramp0.o [9]
 ldexp                        0x136d         Code  ??  ldexp.o [10]
 ldexpl                       0x136d         Code  ??  ldexp.o [10]
-main                         0x28f9   0x36  Code  ??  main.o [1]
+main                         0x292d   0x36  Code  ??  main.o [1]
 memchr                       0x11c5         Code  ??  memchr.o [11]
 pui32Stack              0x2000'0018  0x200  Data  Lc  startup_ewarm.o [1]
 received_char           0x2000'0015    0x1  Data  ??  UART.o [8]
@@ -408,7 +408,7 @@ scalbn                       0x136d         Code  ??  ldexp.o [10]
 scalbnl                      0x136d         Code  ??  ldexp.o [10]
 scale                        0x1047   0x46  Code  Lc  xprintffull_nomb.o [9]
 sec_hand                0x2000'0010    0x4  Data  Lc  xfail_s.o [9]
-setCurrentDoorStatus         0x278f   0x2a  Code  ??  DoorStatus.o [4]
+setCurrentDoorStatus         0x27a1   0x4a  Code  ??  DoorStatus.o [4]
 snprintf                     0x2275   0x44  Code  ??  snprintf.o [9]
 sprintf                      0x23f5   0x40  Code  ??  sprintf.o [9]
 strchr                       0x112d         Code  ??  strchr.o [11]
@@ -430,7 +430,7 @@ tempEn_init                  0x257b   0x6e  Code  ??  LM35.o [7]
 [11] = rt7M_tl.a
 [12] = shb_l.a
 
-  10'112 bytes of readonly  code memory
+  10'164 bytes of readonly  code memory
      638 bytes of readonly  data memory
    8'726 bytes of readwrite data memory
 

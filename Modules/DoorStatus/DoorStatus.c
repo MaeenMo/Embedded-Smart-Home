@@ -18,22 +18,25 @@ void DoorStatus_init(char port, uint8_t pins) {
 
     // 5. Configure NVIC to handle Port interrupts
     NVIC_EN0_R |= (1 << 1);
+    NVIC_PRI0_R = (NVIC_PRI0_R & 0xFFFFFF1F) | (2 << 5); // Set priority to 2 (bits 5-7)
 }
 
 // ISR => For Door Sensor at Port B, Pin 0
 void Door_Handler(void) {
     if (GPIO_PORTB_RIS_R & (1 << 0)) {  // Check if PB0 caused the interrupt
+        SysTick_Init(3 * (16000 - 1));
+        SysTick_Wait();  // Wait for 3 ms for debounce
         // Check the current state of PB0
         if (((GPIO_PORTB_DATA_R & (1 << 0)) == 0) && !doorStatus) {  // Door open (PB0 LOW)
-            doorStatus = true;
+//            doorStatus = true;
             UART_Transmit(5,'O');  // Send 'O' for Door Open
         }
         else if (((GPIO_PORTB_DATA_R & (1 << 0)) == 1) && doorStatus) {  // Door closed (PB0 HIGH)
-            doorStatus = false;
+//            doorStatus = false;
             UART_Transmit(5,'C');  // Send 'C' for Door Closed
         }
     }
-    SysTick_Init(5 * (16000 - 1));
+    SysTick_Init(3 * (16000 - 1));
     SysTick_Wait();  // Wait for 3 ms for debounce
     GPIO_PORTB_ICR_R |= (1 << 0);  // Clear interrupt flag for PB0
 }
@@ -44,5 +47,9 @@ void setCurrentDoorStatus(char c){
             UART_Transmit(5,'D');
         else if ((GPIO_PORTB_DATA_R & (1 << 0)) == 1)
             UART_Transmit(5,'d');
+    } else if (c == 'O'){
+        doorStatus = true;
+    } else if (c == 'C'){
+        doorStatus = false;
     }
 }

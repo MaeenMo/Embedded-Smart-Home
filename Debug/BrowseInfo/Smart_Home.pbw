@@ -98969,7 +98969,7 @@
     "display": "void Door_Handler(void)",
     "location": {
       "column": "6",
-      "line": "24",
+      "line": "25",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DoorStatus\\DoorStatus.c"
     },
     "name": "Door_Handler",
@@ -98983,7 +98983,7 @@
     "display": "void setCurrentDoorStatus(char)",
     "location": {
       "column": "6",
-      "line": "41",
+      "line": "44",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DoorStatus\\DoorStatus.c"
     },
     "name": "setCurrentDoorStatus",

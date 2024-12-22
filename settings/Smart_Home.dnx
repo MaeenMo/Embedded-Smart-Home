@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <settings>
     <DebugChecksum>
-        <Checksum>778746211</Checksum>
+        <Checksum>2378958473</Checksum>
     </DebugChecksum>
     <Disassembly>
         <InstrCount>0</InstrCount>
@@ -41,8 +41,8 @@
         <ShowArgs>0</ShowArgs>
     </CallStack>
     <Exceptions>
-        <StopOnThrow>_ 0</StopOnThrow>
         <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
     </Exceptions>
     <InterruptLog>
         <GraphEnabled>0</GraphEnabled>
@@ -75,16 +75,16 @@
         <MultiCoreRunAll>1</MultiCoreRunAll>
     </Simulator>
     <LmiFtdiDriver>
+        <LMIFTDIserialNo>0E23A40F</LMIFTDIserialNo>
+        <LMIFTDIfoundProbes />
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
         <CStepIntDis>_ 0</CStepIntDis>
         <LmiFtdiResetStyle>0</LmiFtdiResetStyle>
         <LmiFtdiResetStrategy>0</LmiFtdiResetStrategy>
-        <LMIFTDIserialNo>0E23A40F</LMIFTDIserialNo>
-        <LMIFTDIfoundProbes />
     </LmiFtdiDriver>
     <PlDriver>
-        <MemConfigValue>D:\Programs\IAR Systems\Embedded Workbench 9.2\arm\config\debugger\TexasInstruments\TM4C123GH6PM.ddf</MemConfigValue>
         <FirstRun>0</FirstRun>
+        <MemConfigValue>D:\Programs\IAR Systems\Embedded Workbench 9.2\arm\config\debugger\TexasInstruments\TM4C123GH6PM.ddf</MemConfigValue>
     </PlDriver>
     <ArmDriver>
         <EnableCache>0</EnableCache>
@@ -106,9 +106,11 @@
         <Bp1>_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.342.1" 0 0 1 "" 0 "" 0</Bp1>
         <Bp2>_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.264.13" 0 0 1 "" 0 "" 0</Bp2>
         <Bp3>_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.153.13" 0 0 1 "" 0 "" 0</Bp3>
-        <Bp4>_ 1 "EMUL_CODE" "{$PROJ_DIR$\main.c}.39.9" 0 0 1 "" 0 "" 0</Bp4>
-        <Bp5>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Modules\DoorStatus\DoorStatus.c}.33.13" 0 0 1 "" 0 "" 0</Bp5>
-        <Count>6</Count>
+        <Bp4>_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.39.9" 0 0 1 "" 0 "" 0</Bp4>
+        <Bp5>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Modules\UART\UART.c}.108.5" 0 0 1 "" 0 "" 0</Bp5>
+        <Bp6>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Modules\DoorStatus\DoorStatus.c}.26.5" 0 0 1 "" 0 "" 0</Bp6>
+        <Bp7>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Modules\DoorStatus\DoorStatus.c}.45.5" 0 0 1 "" 0 "" 0</Bp7>
+        <Count>8</Count>
     </Breakpoints2>
     <Aliases>
         <Count>0</Count>
