@@ -17,7 +17,7 @@
 void UART_Init(uint8_t uartNum, uint32_t baudRate);
 void UART_Transmit(uint8_t uartNum, char data);
 void UART_Transmit_String(uint8_t uartNum, const char *str);
-void UART_Transmit_Temperature(uint8_t uartNum, uint8_t data);
+void UART_Transmit_Temperature(uint8_t uartNum, double value);
 char UART_Receive(uint8_t uartNum);
 
 #endif

@@ -98882,7 +98882,7 @@
     "ID": "c:@F@UART_Transmit_Temperature",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void UART_Transmit_Temperature(uint8_t, uint8_t)",
+    "display": "void UART_Transmit_Temperature(uint8_t, double)",
     "location": {
       "column": "6",
       "line": "20",
@@ -98896,7 +98896,7 @@
     "ID": "c:@F@UART_Transmit_Temperature",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void UART_Transmit_Temperature(uint8_t, uint8_t)",
+    "display": "void UART_Transmit_Temperature(uint8_t, double)",
     "location": {
       "column": "6",
       "line": "20",
@@ -99652,9 +99652,9 @@
     "ID": "c:@F@GetTemp",
     "What": "Function",
     "defdec": "Def",
-    "display": "uint32_t GetTemp(void)",
+    "display": "double GetTemp(void)",
     "location": {
-      "column": "10",
+      "column": "8",
       "line": "24",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Temperature\\LM35.c"
     },
@@ -99663,7 +99663,7 @@
     "scope": null
   },
   {
-    "ID": "c:LM35.c@1086@F@GetTemp@reading",
+    "ID": "c:LM35.c@1084@F@GetTemp@reading",
     "What": "Variable",
     "defdec": "Def",
     "display": "reading",
@@ -99705,12 +99705,12 @@
     "scope": null
   },
   {
-    "ID": "c:LM35.c@2468@F@Read_Temperature_Handler@temperature",
+    "ID": "c:LM35.c@2478@F@Read_Temperature_Handler@temperature",
     "What": "Variable",
     "defdec": "Def",
     "display": "temperature",
     "location": {
-      "column": "22",
+      "column": "20",
       "line": "56",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Temperature\\LM35.c"
     },
@@ -99778,9 +99778,9 @@
     "ID": "c:@F@GetTemp",
     "What": "Function",
     "defdec": "Dec",
-    "display": "uint32_t GetTemp(void)",
+    "display": "double GetTemp(void)",
     "location": {
-      "column": "10",
+      "column": "8",
       "line": "8",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Temperature\\LM35.h"
     },
@@ -99792,9 +99792,9 @@
     "ID": "c:@F@GetTemp",
     "What": "Function",
     "defdec": "Dec",
-    "display": "uint32_t GetTemp(void)",
+    "display": "double GetTemp(void)",
     "location": {
-      "column": "10",
+      "column": "8",
       "line": "8",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Temperature\\LM35.h"
     },
@@ -110026,7 +110026,7 @@
     "ID": "c:@F@UART_Transmit_Temperature",
     "What": "Function",
     "defdec": "Def",
-    "display": "void UART_Transmit_Temperature(uint8_t, uint8_t)",
+    "display": "void UART_Transmit_Temperature(uint8_t, double)",
     "location": {
       "column": "6",
       "line": "82",
@@ -110037,44 +110037,16 @@
     "scope": null
   },
   {
-    "ID": "c:UART.c@3236@F@UART_Transmit_Temperature@num_size",
+    "ID": "c:UART.c@3244@F@UART_Transmit_Temperature@tempString",
     "What": "Variable",
     "defdec": "Def",
-    "display": "num_size",
+    "display": "tempString",
     "location": {
-      "column": "13",
+      "column": "10",
       "line": "83",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.c"
     },
-    "name": "num_size",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:UART.c@3292@F@UART_Transmit_Temperature@str",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "str",
-    "location": {
-      "column": "11",
-      "line": "84",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.c"
-    },
-    "name": "str",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:UART.c@3410@F@UART_Transmit_Temperature@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "18",
-      "line": "87",
-      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.c"
-    },
-    "name": "i",
+    "name": "tempString",
     "origin": "project_file",
     "scope": null
   },
@@ -110085,7 +110057,7 @@
     "display": "char UART_Receive(uint8_t)",
     "location": {
       "column": "6",
-      "line": "94",
+      "line": "89",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.c"
     },
     "name": "UART_Receive",
@@ -110093,13 +110065,13 @@
     "scope": null
   },
   {
-    "ID": "c:UART.c@3584@F@UART_Receive@uartBase",
+    "ID": "c:UART.c@3553@F@UART_Receive@uartBase",
     "What": "Variable",
     "defdec": "Def",
     "display": "uartBase",
     "location": {
       "column": "14",
-      "line": "95",
+      "line": "90",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.c"
     },
     "name": "uartBase",
@@ -110113,7 +110085,7 @@
     "display": "void UART5_Handler(void)",
     "location": {
       "column": "6",
-      "line": "107",
+      "line": "102",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\UART\\UART.c"
     },
     "name": "UART5_Handler",

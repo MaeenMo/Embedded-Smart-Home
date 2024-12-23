@@ -78,16 +78,11 @@ void UART_Transmit_String(uint8_t uartNum, const char *str) {
     }
 }
 
-// Transmit a character
-void UART_Transmit_Temperature(uint8_t uartNum, uint8_t data) {
-    uint8_t num_size = snprintf(0, 0, "%d", data) + 1;
-    char* str = (char *)malloc(num_size);
-    // Convert the number to a string
-    sprintf(str, "%d", data);
-    for (uint8_t i = 0; str[i] != '\0'; i++) {
-        UART_Transmit(uartNum, str[i]);
-    }
-    free(str);
+// Transmit a temperature value
+void UART_Transmit_Temperature(uint8_t uartNum, double value) {
+    char tempString[10];  // Buffer to store the formatted string
+    snprintf(tempString, sizeof(tempString), "%.1f", value); // Format to one decimal place
+    UART_Transmit_String(uartNum, tempString);  // Transmit the formatted string
 }
 
 // Receive a character

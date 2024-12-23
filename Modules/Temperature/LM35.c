@@ -21,11 +21,11 @@ void LM35_init(void) {
     ADC0_ACTSS_R |= 8;              // Re-enable SS3
 }
 
-uint32_t GetTemp(void) {
-    uint32_t reading = 0;
+double GetTemp(void) {
+    uint32_t reading = 0.0;
     ADC0_PSSI_R |= 8;                // Start SS3
     reading = ADC0_SSFIFO3_R & 0xFFF;
-    return reading * 0.08335966222; // (3414 Volts / 4096) * 0.1 => calibration value for LM35
+    return (double)(reading * 0.08335966222); // (3414 Volts / 4096) * 0.1 => calibration value for LM35
 
 }
 
@@ -53,8 +53,8 @@ void Read_Temperature_Handler(void) {
         if ((GPIO_PORTD_DATA_R & (1 << 0)) != 0) {  // Temperature Send (PD0 HIGH)
             SysTick_Init(300 * (16000 - 1)); // Initialize SysTick timer
             SysTick_Wait(); // Wait for 100 ms for debounce
-            uint32_t temperature = GetTemp();  // Get temperature from LM35
-            UART_Transmit_Temperature(5, (uint8_t)temperature); // Transmit temperature
+            double temperature = GetTemp();  // Get temperature from LM35
+            UART_Transmit_Temperature(5, temperature); // Transmit temperature
             if(temperature > 35) {
                 Toggle_alarm('B', 1);
             }
