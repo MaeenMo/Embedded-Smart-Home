@@ -55,7 +55,7 @@ void Read_Temperature_Handler(void) {
             SysTick_Wait(); // Wait for 100 ms for debounce
             double temperature = GetTemp();  // Get temperature from LM35
             UART_Transmit_Temperature(5, temperature); // Transmit temperature
-            if(temperature > 35) {
+            if(temperature >= 36) {
                 Toggle_alarm('B', 1);
             }
             SysTick_Init(800 * (16000 - 1)); // Initialize SysTick timer
