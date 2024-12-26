@@ -28,11 +28,9 @@ void Door_Handler(void) {
         SysTick_Wait();  // Wait for 3 ms for debounce
         // Check the current state of PB0
         if (((GPIO_PORTB_DATA_R & (1 << 0)) == 0) && !doorStatus) {  // Door open (PB0 LOW)
-//            doorStatus = true;
             UART_Transmit(5,'O');  // Send 'O' for Door Open
         }
         else if (((GPIO_PORTB_DATA_R & (1 << 0)) == 1) && doorStatus) {  // Door closed (PB0 HIGH)
-//            doorStatus = false;
             UART_Transmit(5,'C');  // Send 'C' for Door Closed
         }
     }

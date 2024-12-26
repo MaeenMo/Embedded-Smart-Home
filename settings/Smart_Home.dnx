@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <settings>
     <DebugChecksum>
-        <Checksum>748920121</Checksum>
+        <Checksum>676314714</Checksum>
     </DebugChecksum>
     <Disassembly>
         <InstrCount>0</InstrCount>
@@ -107,9 +107,9 @@
         <Bp2>_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.264.13" 0 0 1 "" 0 "" 0</Bp2>
         <Bp3>_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.153.13" 0 0 1 "" 0 "" 0</Bp3>
         <Bp4>_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.39.9" 0 0 1 "" 0 "" 0</Bp4>
-        <Bp5>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Modules\DoorStatus\DoorStatus.c}.26.5" 0 0 1 "" 0 "" 0</Bp5>
-        <Bp6>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Modules\Temperature\LM35.c}.57.33" 0 0 1 "" 0 "" 0</Bp6>
-        <Bp7>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Modules\Temperature\LM35.c}.56.36" 0 0 1 "" 0 "" 0</Bp7>
+        <Bp5>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Modules\Temperature\LM35.c}.57.33" 0 0 1 "" 0 "" 0</Bp5>
+        <Bp6>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Modules\Temperature\LM35.c}.56.36" 0 0 1 "" 0 "" 0</Bp6>
+        <Bp7>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Modules\UART\UART.c}.105.9" 0 0 1 "" 0 "" 0</Bp7>
         <Count>8</Count>
     </Breakpoints2>
     <Aliases>

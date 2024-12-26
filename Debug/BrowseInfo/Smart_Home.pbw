@@ -98983,7 +98983,7 @@
     "display": "void setCurrentDoorStatus(char)",
     "location": {
       "column": "6",
-      "line": "44",
+      "line": "42",
       "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\DoorStatus\\DoorStatus.c"
     },
     "name": "setCurrentDoorStatus",
@@ -99201,7 +99201,35 @@
     "scope": null
   },
   {
-    "ID": "c:Systick.h@32@macro@SYSTICKTIMER_H",
+    "ID": "c:Relay.c@387@F@Relay_Control@lastStatePE1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "lastStatePE1",
+    "location": {
+      "column": "20",
+      "line": "12",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Relay\\Relay.c"
+    },
+    "name": "lastStatePE1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Relay.c@459@F@Relay_Control@lastStatePE2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "lastStatePE2",
+    "location": {
+      "column": "20",
+      "line": "13",
+      "path": "D:\\Maeen\\UNI Documents\\OneDrive - Faculty of Engineering Ain Shams University\\Senior 1\\Fall 24\\Introduction to Embedded Systems\\Project\\IAR Smart Home\\Modules\\Relay\\Relay.c"
+    },
+    "name": "lastStatePE2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:SysTick.h@32@macro@SYSTICKTIMER_H",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSTICKTIMER_H",
@@ -99215,7 +99243,7 @@
     "scope": null
   },
   {
-    "ID": "c:SysTick.h@32@macro@SYSTICKTIMER_H",
+    "ID": "c:Systick.h@32@macro@SYSTICKTIMER_H",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSTICKTIMER_H",
