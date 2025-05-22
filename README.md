@@ -1,4 +1,4 @@
-# 🏠 IAR Smart Home System
+# 🏠 Smart Home System
 
 An embedded smart home project developed for the TM4C123GH6PM microcontroller using the IAR Embedded Workbench IDE. This system modularizes essential smart home functionalities such as relay control, alarm triggering, temperature sensing, door status monitoring, and UART/Bluetooth communication.
 
@@ -44,21 +44,21 @@ An embedded smart home project developed for the TM4C123GH6PM microcontroller us
 ---
 
 ## 📁 Project Structure
-IAR Smart Home/
-├── Modules/
-│ ├── Alarm/ # Alarm logic
-│ ├── DIO/ # Digital I/O abstraction
-│ ├── DoorStatus/ # Door sensor handling
-│ ├── Relay/ # Relay control logic
-│ ├── Systick/ # Timer and delay functions
-│ ├── Temperature/ # LM35 temperature sensor interface
-│ └── UART/ # Serial communication over UART
-├── settings/ # Bitwise macros, startup, and headers
-├── inc/ # Includes (if used)
-├── Debug/ # IAR-generated debug files
-├── main.c # Application entry point
-├── tm4c123gh6pm.h # MCU register definitions
-├── Smart Home.ewp # IAR project file
+Smart Home/ <br>
+├── Modules/ <br>
+│ ├── Alarm/ # Alarm logic <br>
+│ ├── DIO/ # Digital I/O abstraction <br>
+│ ├── DoorStatus/ # Door sensor handling <br>
+│ ├── Relay/ # Relay control logic <br>
+│ ├── Systick/ # Timer and delay functions <br>
+│ ├── Temperature/ # LM35 temperature sensor interface <br>
+│ └── UART/ # Serial communication over UART <br>
+├── settings/ # Bitwise macros, startup, and headers <br>
+├── inc/ # Includes (if used) <br>
+├── Debug/ # IAR-generated debug files <br>
+├── main.c # Application entry point <br>
+├── tm4c123gh6pm.h # MCU register definitions <br>
+├── Smart Home.ewp # IAR project file <br>
 
 
 ---
